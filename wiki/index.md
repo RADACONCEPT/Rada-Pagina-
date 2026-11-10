@@ -9,7 +9,7 @@ fuentes: ["Instrucciones del agente pegadas por la usuaria", "archivos del proye
 # Wiki de Rada Concept
 
 ## Proyecto
-- [[plan-mejoras]] — plan canónico de 13 pasos y flujo local de revisión.
+- [[plan-mejoras]] — plan de 13 pasos adaptado a las respuestas y flujo local/commit por iteración.
 - [[estado-del-proyecto]] — tecnología, ejecución, comprobaciones y siguiente paso.
 - [[empresa]] — datos de negocio distinguidos por grado de certeza.
 - [[documentos-y-activos]] — catálogo de originales y procedencia.

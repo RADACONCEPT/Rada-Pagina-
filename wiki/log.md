@@ -30,4 +30,12 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 - Revisado el paquete local de plan y validación. `entrega-rada-concept.zip` contiene un plan de 13 pasos y dos ZIPs de skills; no contiene la exportación de la landing. Los archivos de validación/mensaje quedan solo locales.
 - Instaladas y verificadas en `.agents/skills/` las cinco skills para el plan: `seo-organico-ia`, `tratamiento-datos-landing`, `emil-design-eng`, `mobile-native` e `impeccable`. Transitions es opcional y queda para decidir en el Paso 10.
 - Copiado el plan fuente sin alterar el original a `plan-mejoras.md`; Paso 0 marcado como verificado. Acordado el ciclo local: cambio de un paso, vista previa, feedback/iteración hasta satisfacción, comprobaciones, commit y push a `origin/main`.
-- Pendiente: respuestas de la usuaria antes de generar el itinerario validado e iniciar el Paso 1.
+- Pendiente entonces: respuestas sobre negocio, activos y alcance; ahora recibidas y registradas abajo.
+
+## [2026-11-10] alcance | decisiones de negocio y catálogo conjunto
+- La usuaria confirmó que el checkout actual es la fuente de verdad y que los pasos aceptados se sincronizan a GitHub con commits.
+- Alcance confirmado: mobiliario para acabados de hogares, oficinas y espacios comerciales; enfoque residencial/comercial en la región norte de Colombia; equipo que incluye arquitectura y diseño.
+- WhatsApp `+57 350 289 9088`, Instagram `@rada_concept` y redes actuales siguen correctos. Eligió revisar el catálogo juntas antes de mapear fotos; eligió `TALLER.mp4`. Política de datos incluida; cocina interactiva opcional.
+- Se encontró y registró `RUT GRUPO VILORIA RADA.pdf` en `Docs/`; solo consulta local de datos mínimos, nunca subir el documento ni copiar su contenido sensible a wiki/Git.
+- Actualizados plan, estado, empresa, catálogo, pendientes y decisiones. La hoja visual tiene 26 fotos numeradas; no se editaron archivos de la landing ni se declaró terminado el Paso 1.
+- Próxima acción: elegir IDs para portada/galerías y revisar en conjunto; continuar auditoría del Paso 1.

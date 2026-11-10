@@ -1,6 +1,6 @@
 # Plan de mejoras · Rada Concept
 
-Guarda este archivo en la carpeta de tu página, junto al código. Pídele a tu agente **un paso a la vez**, en una conversación nueva cada vez, copiando el mensaje del paso. Así gastas menos tokens.
+Este es el plan canónico del checkout actual, que la usuaria confirmó como fuente de verdad. Pide **un paso a la vez**; no hace falta abrir una conversación nueva.
 
 ## Cómo trabajaremos cada paso
 
@@ -14,7 +14,7 @@ Guarda este archivo en la carpeta de tu página, junto al código. Pídele a tu 
 
 - Haz **solo el paso que te pidan**. No adelantes otros pasos.
 - Mejora la página que ya existe; **no la rehagas desde cero** ni cambies su estructura sin que te lo pida.
-- Usa **solo fotos y videos reales** de la carpeta `Docs`. **Nunca** generes imágenes ni uses fotos de internet o de otras carpinterías. No inventes proyectos, textos, reseñas ni datos de contacto. Si falta algo, dilo y pregunta (máximo cinco preguntas).
+- Usa fotos y videos empresariales de `Docs` solo después de que la usuaria confirme proyecto, uso y autorización. No inventes proyectos, textos, reseñas ni datos de contacto. Si falta algo, dilo y pregunta.
 - Guarda las fotos y videos **dentro del proyecto** (no como enlaces externos) y conserva los originales de `Docs` sin modificarlos.
 - Antes de cambiar, guarda una versión recuperable (commit de Git o copia de la carpeta).
 - Comprueba el resultado en **celular y computador**. Explícame en palabras simples qué cambiaste y qué revisaste.
@@ -28,10 +28,10 @@ Guarda este archivo en la carpeta de tu página, junto al código. Pídele a tu 
 
 - [ ] **Paso 1 · Revisar la página y el material** *(Nivel de modelo: alto)*
 
-  > Lee `plan-mejoras.md` y haz solo el paso 1. Abre la última versión exportada de mi página que está en `Docs` y hazla funcionar en mi computador. Hazme una lista de todas las imágenes de la página: cuáles son fotos mías y cuáles son genéricas o generadas, y en qué sección está cada una. Revisa qué fotos, videos y textos hay en `Docs` y dime qué falta. No cambies nada todavía.
+  > Lee `plan-mejoras.md` y haz solo el paso 1. Audita el checkout actual (es la fuente de verdad), ejecuta la landing localmente y registra cada imagen existente y su sección, identificando lo que es externo o no se puede atribuir. Revisa el catálogo de `Docs`, incluidos nombres y materiales; no copies ni publiques nada todavía. Anota qué falta y qué necesita confirmación. No cambies la landing.
 
-  **Necesitas en Docs:** el ZIP de la última versión y tus fotos por proyecto.
-  **Quedó bien si:** tienes la lista de imágenes genéricas por cambiar y sabes qué material falta.
+  **Necesitas en Docs:** nada adicional para auditar; las fotos están pendientes de asociación y aprobación de la usuaria.
+  **Quedó bien si:** hay inventario de imágenes por sección y lista clara de confirmaciones/material faltante.
 
 - [ ] **Paso 2 · Guardar tus fotos dentro del proyecto** *(Nivel de modelo: medio)*
 
@@ -43,14 +43,14 @@ Guarda este archivo en la carpeta de tu página, junto al código. Pídele a tu 
 
   > Lee `plan-mejoras.md` y haz solo el paso 3. Cambia la imagen principal genérica por la foto de portada que indiqué en `Docs`. Que se vea completa en celular y computador, sin recortes que oculten el acabado, y que el texto encima se lea bien.
 
-  **Necesitas en Docs:** la foto elegida para la portada.
+  **Necesitas en Docs:** una foto elegida y aprobada por la usuaria; `PORTADA.jpeg` es solo una candidata por nombre y muestra muestras de acabado.
   **Quedó bien si:** la portada muestra un trabajo real de Rada Concept y se ve bien en el teléfono.
 
 - [ ] **Paso 4 · Galerías con las fotos correctas** *(Nivel de modelo: alto)*
 
   > Lee `plan-mejoras.md` y haz solo el paso 4. Cambia todas las imágenes genéricas de las galerías, incluida la cocina, por las fotos de cada proyecto según las carpetas de `Docs`. Cada galería debe mostrar solo fotos de su proyecto. Al abrir una foto en grande y volver, la persona debe seguir en el mismo lugar de la página. Muéstrame la lista de cambios: qué imagen había y cuál quedó.
 
-  **Necesitas en Docs:** fotos en carpetas por proyecto.
+  **Necesitas en Docs:** correspondencia foto-proyecto y autorización confirmadas. Primero se revisará el catálogo visual con la usuaria.
   **Quedó bien si:** no queda ninguna imagen genérica y cada galería corresponde a un proyecto real.
 
 - [ ] **Paso 5 · Quiénes somos** *(Nivel de modelo: medio)*
@@ -71,7 +71,7 @@ Guarda este archivo en la carpeta de tu página, junto al código. Pídele a tu 
 
   > Lee `plan-mejoras.md` y haz solo el paso 7. Agrega los videos que elegí en `Docs` de forma ligera: con una imagen de portada, que carguen solo cuando la persona llegue a ellos y **sin sonido automático**. No deben tapar textos ni hacer lenta la página. Comprueba en celular que la página sigue rápida.
 
-  **Necesitas en Docs:** los videos elegidos.
+  **Necesitas en Docs:** la usuaria eligió `TALLER.mp4`; revisar contenido, formato y peso antes de usarlo. Los otros tres videos siguen sin elegir.
   **Quedó bien si:** los videos se ven bien, no suenan solos y la página no se volvió lenta.
 
 - [ ] **Paso 8 · Acabado profesional** *(Nivel de modelo: alto)*
@@ -96,7 +96,7 @@ Guarda este archivo en la carpeta de tu página, junto al código. Pídele a tu 
 
   > Lee `plan-mejoras.md` y haz solo el paso 11. Usa la skill tratamiento-datos-landing. Revisa qué datos personales recoge mi página, hazme las preguntas que falten para la política y, cuando la tengas, ponla en su propia página con un enlace en el pie y un aviso corto junto al botón de WhatsApp. No publiques la política si faltan los datos de la empresa.
 
-  **Necesitas en Docs:** NIT o RUT, dirección y un correo para temas de datos.
+  **Necesitas en Docs:** existe `RUT GRUPO VILORIA RADA.pdf`, que se consultará solo localmente para extraer los datos empresariales mínimos necesarios; confirmar dirección oficial y correo de privacidad. No copiar el RUT al repositorio.
   **Quedó bien si:** la política abre desde el pie de página.
 
 - [ ] **Paso 12 · SEO: que te encuentren en Google** *(Nivel de modelo: medio)*
@@ -114,3 +114,12 @@ Guarda este archivo en la carpeta de tu página, junto al código. Pídele a tu 
 ---
 
 Cuando termines todos los pasos, avísale a tu facilitador para revisar y publicar.
+
+## Alcance acordado y secuencia
+
+- Oferta central: mobiliario para acabados de hogares, oficinas y espacios comerciales; enfoque residencial y comercial en la región norte de Colombia; el equipo incluye arquitectura y diseño.
+- WhatsApp `+57 350 289 9088`, Instagram `@rada_concept` y redes actuales siguen vigentes, según la usuaria.
+- Video elegido: `TALLER.mp4`, pendiente de revisión antes de incorporarlo. Fotos/galerías: pendientes de mapeo conjunto a partir del catálogo visual; no asumir que `PORTADA.jpeg` es portada del sitio.
+- La política de tratamiento de datos queda dentro del plan. La cocina interactiva se conserva como opción adicional, fuera de los pasos obligatorios; se puede evaluar tras el núcleo de la landing.
+- Orden de trabajo: Paso 1 auditoría y vista local; 2 preparar activos aprobados; 3 portada; 4 galerías; 5 textos de empresa aprobados; 6 contacto/redes; 7 video `TALLER`; 8 pulido visual; 9 revisión móvil; 10 transiciones opcionales; 11 política de datos con información empresarial revisada localmente; 12 SEO; 13 revisión final.
+- Al completar cada paso, revisar cambios en `http://127.0.0.1:3000/`, iterar con la usuaria, verificar, marcarlo terminado y crear/subir un commit propio. El paso no se considera terminado hasta que la usuaria confirme su satisfacción.
