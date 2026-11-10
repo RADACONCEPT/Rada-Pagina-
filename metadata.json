@@ -1,0 +1,6 @@
+{
+  "name": "Rada Concept - Arquitectura & Interiorismo de Autor",
+  "description": "Estudio de arquitectura, diseño de interiores y mobiliario a medida en Valledupar y toda Colombia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
