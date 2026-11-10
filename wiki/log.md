@@ -19,3 +19,9 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 - Se actualizó `esbuild` a `^0.28.2` para resolver el conflicto con Vite 8.3.7. npm instaló 179 paquetes; auditoría sin vulnerabilidades reportadas.
 - `npm run build` y `npm run lint` pasaron. `npm run dev -- --host 127.0.0.1` anunció `http://127.0.0.1:3000/`; consulta HTTP local no respondió y la herramienta de navegador se detuvo por no poder determinar con seguridad la URL actual. Revisión visual pendiente.
 - Siguiente paso: abrir la vista previa manualmente; confirmar datos/testimonios y permisos de activos; pedir identidad Git local para commit.
+
+## [2026-11-10] sincronización | repositorio GitHub Rada-Pagina-
+- La usuaria confirmó `RADACONCEPT` como cuenta y solicitó subir el proyecto al remoto `https://github.com/RADACONCEPT/Rada-Pagina-.git`.
+- La cuenta autenticada en la web mostró el repositorio vacío. Se creó commit inicial `3644a65` con nombre `RADACONCEPT` y correo noreply; se configuró `main` y `git push -u origin main` terminó correctamente.
+- El commit contiene 34 archivos de código, dependencias y wiki. `Docs/` permanece ignorada; `.env.example` conserva solo marcadores. El sitio no se publica por subir código a GitHub.
+- Pendiente: comprobar en GitHub que el commit y archivos se muestran; abrir vista previa local para revisión visual; validar contenido de negocio y autorizaciones de activos.
