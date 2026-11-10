@@ -22,7 +22,6 @@ Los siguientes 26 JPEG fueron revisados como miniaturas en contacto. La descripc
 - `Docs/WhatsApp Image 2026-10-07 at 4.40.09 PM (2).jpeg` — 112 KB; dormitorio con armarios y paneles claros; confirmar proyecto y permiso.
 - `Docs/WhatsApp Image 2026-10-07 at 4.40.09 PM (3).jpeg` — 128 KB; mueble de sala infantil con TV; confirmar proyecto y permiso.
 - `Docs/WhatsApp Image 2026-10-07 at 4.40.09 PM.jpeg` — 880 KB; duplicado exacto del archivo de 4:40:08 PM sin sufijo.
-- `Docs/WhatsApp Image 2026-10-07 at 4.40.09 PM.jpeg` — 880 KB; duplicado exacto del archivo de 4:40:08 PM sin sufijo.
 - `Docs/WhatsApp Image 2026-10-07 at 4.40.10 PM.jpeg` — 122 KB; vista de dormitorio con clóset y pasillo.
 - `Docs/WhatsApp Image 2026-10-19 at 8.58.58 AM (1).jpeg` — 138 KB; muestras de acabado/material en mesa; detalle fino pendiente.
 - `Docs/WhatsApp Image 2026-10-19 at 8.58.58 AM (2).jpeg` — 179 KB; cocina-comedor con isla y mobiliario claro.
@@ -54,3 +53,11 @@ Los siguientes 26 JPEG fueron revisados como miniaturas en contacto. La descripc
 - `src/screens/` y `src/components/` — implementación de las secciones y flujos de contacto/cita. Las imágenes principales actuales enlazan URLs externas, no los JPEG de `Docs/`.
 
 No se creó `Docs/organizados/`: no se han elegido activos ni hacen falta copias de trabajo todavía. Cada activo utilizado deberá tener permiso y quedar copiado individualmente a una ruta pública técnica, nunca exponer `Docs/` entero.
+
+## Plan y paquete recibido fuera de Docs
+- `03-grupo-viloria-rada-sas-rada-concept-20261110T202642Z-1-001/03-grupo-viloria-rada-sas-rada-concept/plan-mejoras.md` — plan fuente de 13 pasos, copiado como plan de trabajo canónico a `plan-mejoras.md`; el original se conserva sin cambios.
+- `.../instalar-skills.md` — guía fuente de instalación, consultada.
+- `.../validacion-con-cliente.md` y `.../mensaje-whatsapp.md` — notas de facilitación y texto propuesto; no se tratan como confirmaciones de la empresa ni se suben a Git.
+- `.../entrega-rada-concept.zip` — ZIP contenedor; contiene el plan, guía de skills y los dos ZIPs de skills, no la exportación de la landing.
+- `.../seo-organico-ia.zip` y `.../tratamiento-datos-landing.zip` — fuentes originales de las skills locales instaladas en `.agents/skills/`. ZIPs originales conservados.
+- **Pendiente:** no está el ZIP de la landing de AI Studio en `Docs/`; no extraer ni reemplazar nada hasta que la usuaria indique si la copia actual de GitHub/proyecto es la versión de trabajo.

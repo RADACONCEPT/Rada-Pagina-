@@ -25,3 +25,9 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 - La cuenta autenticada en la web mostró el repositorio vacío. Se creó commit inicial `3644a65` con nombre `RADACONCEPT` y correo noreply; se configuró `main` y `git push -u origin main` terminó correctamente.
 - El commit contiene 34 archivos de código, dependencias y wiki. `Docs/` permanece ignorada; `.env.example` conserva solo marcadores. El sitio no se publica por subir código a GitHub.
 - Pendiente: comprobar en GitHub que el commit y archivos se muestran; abrir vista previa local para revisión visual; validar contenido de negocio y autorizaciones de activos.
+
+## [2026-11-10] plan | skills iniciales y flujo de revisión
+- Revisado el paquete local de plan y validación. `entrega-rada-concept.zip` contiene un plan de 13 pasos y dos ZIPs de skills; no contiene la exportación de la landing. Los archivos de validación/mensaje quedan solo locales.
+- Instaladas y verificadas en `.agents/skills/` las cinco skills para el plan: `seo-organico-ia`, `tratamiento-datos-landing`, `emil-design-eng`, `mobile-native` e `impeccable`. Transitions es opcional y queda para decidir en el Paso 10.
+- Copiado el plan fuente sin alterar el original a `plan-mejoras.md`; Paso 0 marcado como verificado. Acordado el ciclo local: cambio de un paso, vista previa, feedback/iteración hasta satisfacción, comprobaciones, commit y push a `origin/main`.
+- Pendiente: respuestas de la usuaria antes de generar el itinerario validado e iniciar el Paso 1.

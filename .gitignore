@@ -8,3 +8,5 @@ coverage/
 !.env.example
 # Material empresarial original: puede contener información privada.
 Docs/
+# Paquete local de validación y ZIPs fuente; no publicar con el sitio.
+03-grupo-viloria-rada-sas-rada-concept-20261110T202642Z-1-001/
