@@ -2,7 +2,7 @@
 tipo: bitacora
 estado: vigente
 creado: 2026-11-10
-actualizado: 2026-11-10
+actualizado: 2026-11-20
 tags: [log]
 fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de Docs/"]
 ---
@@ -39,3 +39,7 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 - Se encontró y registró `RUT GRUPO VILORIA RADA.pdf` en `Docs/`; solo consulta local de datos mínimos, nunca subir el documento ni copiar su contenido sensible a wiki/Git.
 - Actualizados plan, estado, empresa, catálogo, pendientes y decisiones. La hoja visual tiene 26 fotos numeradas; no se editaron archivos de la landing ni se declaró terminado el Paso 1.
 - Próxima acción: elegir IDs para portada/galerías y revisar en conjunto; continuar auditoría del Paso 1.
+
+## [2026-11-20] activos | permiso de publicación de fotografías
+- La usuaria confirmó que todas las fotografías del catálogo tienen permiso de publicación.
+- Registrado el permiso en el catálogo, estado, pendientes y decisiones. Aún falta asociar las fotos con proyectos/galerías y escoger la portada.

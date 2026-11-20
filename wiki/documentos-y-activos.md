@@ -2,13 +2,13 @@
 tipo: catalogo
 estado: provisional
 creado: 2026-11-10
-actualizado: 2026-11-10
+actualizado: 2026-11-20
 tags: [fuentes, activos, docs]
 fuentes: ["inventario local de Docs/", "revisión visual de miniaturas"]
 ---
 # Documentos y activos
 
-`Docs/` contiene originales empresariales y está excluida de Git. No renombrar, modificar, publicar ni copiar originales sin confirmación. Las descripciones visuales no confirman proyecto, autoría ni permiso. La hoja visual numerada está en `C:\Users\USUARIO\.codex\visualizations\2026\11\10\01a1c71b-583c-7472-aa5e-5f14bf66510f\catalogo-activos-rada.png`.
+`Docs/` contiene originales empresariales y está excluida de Git. La usuaria confirmó el 2026-11-20 que **todas las fotos tienen permiso de publicación**. Las descripciones visuales no confirman a qué proyecto pertenece cada foto. No renombrar, modificar ni copiar los originales. La hoja visual numerada está en `C:\Users\USUARIO\.codex\visualizations\2026\11\10\01a1c71b-583c-7472-aa5e-5f14bf66510f\catalogo-activos-rada.png`.
 
 ## Identidad y documentos
 
@@ -48,7 +48,7 @@ La numeración coincide con la hoja visual; utilízala para acordar asociaciones
 - **ID 25** — `Docs/WhatsApp Image 2026-10-19 at 8.59.00 AM (3).jpeg` (181.672 bytes).
 - **ID 26** — `Docs/WhatsApp Image 2026-10-19 at 8.59.00 AM.jpeg` (230.217 bytes).
 
-`PORTADA.jpeg` es ID 01 y visualmente muestra muestras de acabados. No equivale a una elección para la portada del sitio. Las miniaturas no acreditan a qué proyecto pertenecen ni su autorización.
+`PORTADA.jpeg` es ID 01 y visualmente muestra muestras de acabados. No equivale a una elección para la portada del sitio. La usuaria todavía debe asociar los IDs con sus proyectos/galerías y elegir la portada.
 
 ## Videos
 
@@ -65,6 +65,6 @@ La usuaria eligió `TALLER.mp4` para evaluar. No se ha hecho inspección visual 
 
 ## Pendiente de validación
 
-- La usuaria y el agente deben mapear IDs de foto a proyectos/galerías y confirmar permisos de uso.
+- La usuaria y el agente deben mapear IDs de foto a proyectos/galerías y elegir la portada; los permisos de las 26 fotos están confirmados por la usuaria.
 - Revisar visualmente las páginas restantes del manual y, antes de incorporar, el video `TALLER.mp4`.
 - No incluir `Docs/` ni los originales empresariales en commits.
