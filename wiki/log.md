@@ -62,4 +62,9 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 
 ## [2026-11-24] aprobación | cierre del Paso 2
 - La usuaria aprobó las copias locales de los activos. Se marcó el Paso 2 como completado; todavía no se modificaron las referencias de imágenes en la landing.
-- Próximo paso: elegir la imagen principal para portada; `Docs/RADA/PORTADA.jpeg` contiene muestras de acabado y no fue elegida.
+- Próximo paso: elegir la imagen principal para portada.
+
+## [2026-11-24] aprobación | cierre del Paso 3
+- La usuaria eligió `Docs/RADA/PORTADA.jpeg`. Se reemplazó la foto remota del hero por la copia local optimizada y se cambió a una composición con imagen completa separada del texto.
+- La usuaria revisó la vista previa local y respondió «OK». `npm run build`, `npm run lint` y `git diff --check` finalizaron correctamente. El build conserva una advertencia ya conocida sobre `__dirname` en Vite.
+- Paso 3 marcado como completado. El siguiente es el Paso 4: relacionar las fotos con los proyectos de las galerías.

@@ -23,4 +23,5 @@ fuentes: ["package.json", "src/", "Docs/", "instrucciones del agente"]
 - **Confirmado por la usuaria:** oferta principal de mobiliario para acabados de hogares, oficinas y espacios comerciales; enfoque residencial y comercial en la región norte de Colombia; equipo que incluye arquitectura y diseño. WhatsApp `+57 350 289 9088` e Instagram `@rada_concept` siguen correctos, así como las redes existentes. La política de datos se incluye en el plan y la cocina interactiva queda opcional.
 - **Paso 1:** aprobado y cerrado por la usuaria el 2026-11-24.
 - **Paso 2:** cerrado por la usuaria el 2026-11-24; 42 JPEG optimizados y el video `TALLER.mp4` original quedaron guardados en `public/assets/rada/`. La landing se recargó correctamente y conserva su aspecto porque los archivos aún no están conectados al código.
-- **Siguiente paso:** escoger la foto aprobada para la portada del sitio y proceder con el Paso 3.
+- **Paso 3:** la usuaria eligió `Docs/RADA/PORTADA.jpeg`; su copia en `public/assets/rada/RADA/PORTADA.jpeg` aparece completa en un panel separado del texto. Revisión local aprobada por la usuaria el 2026-11-24. Build y lint correctos; no equivale a publicación del sitio.
+- **Siguiente paso:** Paso 4, asociar las fotos de `Docs/` con cada proyecto y galería, confirmando nombres con la usuaria.

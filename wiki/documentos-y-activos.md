@@ -109,13 +109,13 @@ Total: **18 archivos de video** (17 MP4 y 1 MOV). Los nombres ayudan a ubicar lo
 ## Duplicados y calidad visual
 
 - Se encontró un par de JPEG idénticos por SHA-256: `Docs/CENTRO TV/CENTRO DE TV.jpeg` y `Docs/CENTRO TV/CENTRO TV CON VITRINA LICORES.jpeg`. Se conservan ambos originales.
-- Las miniaturas de las fotos fueron revisadas; la imagen llamada `RADA/PORTADA.jpeg` muestra muestras de materiales. Aún no está elegida como portada de la landing.
+- Las miniaturas de las fotos fueron revisadas; `Docs/RADA/PORTADA.jpeg` muestra muestras de madera y superficies. La usuaria la eligió para la portada el 2026-11-24; se usa su copia optimizada local `public/assets/rada/RADA/PORTADA.jpeg`.
 
 ## Imágenes que usa actualmente la landing
 
 | Sección | Recurso actual | Observación |
 |---|---|---|
-| Inicio, hero | Imagen externa de Googleusercontent; comparte recurso con la tarjeta "Cocina Isla Nácar" | No proviene de `Docs/`; fuente/propiedad no confirmada. |
+| Inicio, hero | `public/assets/rada/RADA/PORTADA.jpeg` | Elegida y aprobada por la usuaria; muestra materiales, se presenta completa y sin superponer texto. |
 | Inicio, bloque Quiénes somos; About; galería | Imagen externa repetida con alt de sala/carpintería; se comparte entre "Salón Monolítico" y "Carpintería de Autor" | Recurso duplicado y no asociable a fotos de `Docs/` solo por el alt. |
 | Portafolio de Inicio y Galería | Seis tarjetas con alt: "Cocina Isla Nácar", "Salón Monolítico", "Boutique Aurelia", "Oficina Presidencial", "Comedor Serena" y "Carpintería de Autor" | Todos usan URLs `lh3.googleusercontent.com`; no son activos locales ni se ha confirmado si son fotos propias, genéricas o generadas. |
 | Header y footer | Logo externo en `lh3.googleusercontent.com` | La carga falló en la vista revisada (`naturalWidth=0`); el nombre de marca en texto sí aparece. |

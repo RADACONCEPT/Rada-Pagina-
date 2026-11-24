@@ -42,12 +42,12 @@ Este es el plan canónico del checkout actual, que la usuaria confirmó como fue
   **Quedó bien si:** tus fotos están dentro del proyecto y nada se pierde al reiniciar.
   **Cerrado el 24-11-2026:** la usuaria revisó las copias. Se copiaron 42 JPEG a `public/assets/rada/`, conservando las carpetas; copias reencodificadas con calidad JPEG 82 y lado máximo de 1800 px. El total de las imágenes bajó de 8.253.382 a 6.838.860 bytes (17,1 %). Se copió `TALLER E INSTALACION/TALLER.mp4` sin cambios (hash idéntico). Los originales de `Docs/` permanecen intactos. La landing se recargó y abrió correctamente; no se conectaron imágenes al código en este paso.
 
-- [ ] **Paso 3 · Portada con tu mejor proyecto** *(Nivel de modelo: medio)*
+- [x] **Paso 3 · Portada con tu mejor proyecto** *(Nivel de modelo: medio)*
 
   > Lee `plan-mejoras.md` y haz solo el paso 3. Cambia la imagen principal genérica por la foto de portada que indiqué en `Docs`. Que se vea completa en celular y computador, sin recortes que oculten el acabado, y que el texto encima se lea bien.
 
-  **Necesitas en Docs:** una foto elegida por la usuaria entre las carpetas de proyecto; `Docs/RADA/PORTADA.jpeg` muestra muestras de acabado y no está elegida como portada del sitio.
-  **Quedó bien si:** la portada muestra un trabajo real de Rada Concept y se ve bien en el teléfono.
+  **Elegida por la usuaria:** `Docs/RADA/PORTADA.jpeg`, foto vertical de muestras de madera y superficies. Se integró su copia optimizada en `public/assets/rada/RADA/PORTADA.jpeg`, completa y sin recorte; el texto quedó en un panel independiente. La usuaria revisó la vista local y respondió «OK» el 24-11-2026. Build y lint correctos. **Paso cerrado el 24-11-2026.**
+  **Quedó bien si:** la portada muestra la foto de acabados elegida y se ve bien en celular y computador.
 
 - [ ] **Paso 4 · Galerías con las fotos correctas** *(Nivel de modelo: alto)*
 

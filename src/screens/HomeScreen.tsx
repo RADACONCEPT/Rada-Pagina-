@@ -23,29 +23,28 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   return (
     <div className="flex flex-col w-full">
       {/* 1. HERO SECTION */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[#ebe8e2] -mt-20 pt-20">
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center transition-transform duration-1000 scale-105"
-          style={{
-            backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuBFeRsiz0Zz684LlKO2yFx5FPiIOpXmrbmR3sq1BtMHxsR5f4QQsr2TEb7vhS_uI0l_ynAlOgyWrpEesgzn4mvTnIuZhWhHivDzwBwq7vkjolW0D4eoOim6hF9yABCiqRdJdmaroQpj80-27h7vZITaDJMSYUHWbEGszPrXk7m_KQbHmak_6eeRLV0T-wNGE0QL2Mmt_o4h1gdcsqbIM71zni_T22gVozsdP06ff4Q2')`,
-          }}
-        />
-        {/* Soft Contrast Gradient Scrim */}
-        <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/85 via-black/50 to-black/35 backdrop-blur-[0.5px]" />
+      <section className="relative -mt-20 flex min-h-[90vh] flex-col overflow-hidden bg-[#fcf9f3] pt-20 lg:flex-row">
+        <div className="relative flex min-h-[42vh] items-center justify-center bg-[#e8e4dc] px-5 py-8 sm:min-h-[52vh] lg:min-h-0 lg:w-[46%] lg:px-10 lg:py-12">
+          <img
+            src="/assets/rada/RADA/PORTADA.jpeg"
+            alt="Muestras de madera y superficies para acabados de interiores"
+            className="max-h-[52vh] w-full object-contain sm:max-h-[62vh] lg:max-h-[calc(90vh-3rem)]"
+          />
+        </div>
 
-        <div className="relative z-20 max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-20 flex flex-col items-center text-center">
+        <div className="mx-auto flex w-full max-w-3xl flex-col items-center justify-center px-5 py-14 text-center sm:px-8 lg:w-[54%] lg:max-w-none lg:px-12 lg:py-20">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md mb-6 border border-white/20">
-            <span className="w-2 h-2 rounded-full bg-[#f1ddb8] animate-pulse" />
-            <span className="text-[11px] uppercase tracking-[0.14em] font-medium text-[#fcf9f3]">
+            <span className="w-2 h-2 rounded-full bg-[#6b5d40]" />
+            <span className="text-[11px] uppercase tracking-[0.14em] font-medium text-[#4c4546]">
               Arquitectura & Interiorismo de Autor • Valledupar
             </span>
           </div>
 
-          <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl text-[#fcf9f3] max-w-4xl tracking-tight leading-[1.15] mb-6 font-normal">
+          <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl text-[#1c1c18] max-w-4xl tracking-tight leading-[1.15] mb-6 font-normal">
             Espacios elegantes y funcionales, diseñados a tu medida
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl text-[#e5e2dc]/90 max-w-2xl mb-10 font-light leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-[#4c4546] max-w-2xl mb-10 font-light leading-relaxed">
             Diseño, arquitectura e interiorismo en Valledupar y todo el país. Cotización 100 % gratuita.
           </p>
 
@@ -67,7 +66,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
 
             <button
               onClick={() => onNavigate('galeria')}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded border border-white/40 text-white hover:bg-white/10 transition-colors text-xs uppercase tracking-[0.14em] font-medium"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded border border-[#6b5d40]/50 text-[#1c1c18] hover:bg-[#f1ddb8]/40 transition-colors text-xs uppercase tracking-[0.14em] font-medium"
             >
               <span className="material-symbols-outlined text-[18px]">photo_library</span>
               <span>Explorar Portafolio</span>
