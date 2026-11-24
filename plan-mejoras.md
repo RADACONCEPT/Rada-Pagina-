@@ -35,11 +35,12 @@ Este es el plan canónico del checkout actual, que la usuaria confirmó como fue
   **Cerrado el 24-11-2026:** la usuaria dio visto bueno a la auditoría. No se modificó la landing. La revisión fue en el navegador disponible, no en teléfono físico.
   **Quedó bien si:** hay inventario de imágenes por sección y lista clara de confirmaciones/material faltante.
 
-- [ ] **Paso 2 · Guardar tus fotos dentro del proyecto** *(Nivel de modelo: medio)*
+- [x] **Paso 2 · Guardar tus fotos dentro del proyecto** *(Nivel de modelo: medio)*
 
-  > Lee `plan-mejoras.md` y haz solo el paso 2. Copia mis fotos y videos de `Docs` a una carpeta del proyecto, organizados por proyecto, con nombres claros y en un tamaño liviano para web, sin tocar los originales. Guarda una versión con Git. Luego cierra y vuelve a abrir la página en mi computador y confirma que todo sigue igual.
+  > Lee `plan-mejoras.md` y haz solo el paso 2. Copia mis fotos aprobadas y los videos que elegí de `Docs` a una carpeta del proyecto, organizados por proyecto, con nombres claros y livianos para web, sin tocar los originales. Luego recarga la página local y confirma que todo sigue igual. Después de que yo revise el cambio, guárdalo con Git.
 
   **Quedó bien si:** tus fotos están dentro del proyecto y nada se pierde al reiniciar.
+  **Cerrado el 24-11-2026:** la usuaria revisó las copias. Se copiaron 42 JPEG a `public/assets/rada/`, conservando las carpetas; copias reencodificadas con calidad JPEG 82 y lado máximo de 1800 px. El total de las imágenes bajó de 8.253.382 a 6.838.860 bytes (17,1 %). Se copió `TALLER E INSTALACION/TALLER.mp4` sin cambios (hash idéntico). Los originales de `Docs/` permanecen intactos. La landing se recargó y abrió correctamente; no se conectaron imágenes al código en este paso.
 
 - [ ] **Paso 3 · Portada con tu mejor proyecto** *(Nivel de modelo: medio)*
 

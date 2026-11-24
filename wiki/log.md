@@ -54,3 +54,12 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 ## [2026-11-24] aprobación | cierre del Paso 1
 - La usuaria dio visto bueno a la auditoría visual y de materiales. Se marcó el Paso 1 como completado; no se modificó la landing.
 - Actualizados plan, estado y pendientes. Siguiente paso acordado: preparar los activos aprobados localmente y mantener intactos los originales de `Docs/`.
+
+## [2026-11-24] activos | preparación local para Paso 2
+- Copiadas 42 fotos aprobadas a `public/assets/rada/`, preservando la organización por carpetas y reencodificando JPEG a calidad 82, máximo 1800 px por lado. Tamaño de imagen pasó de 8.253.382 a 6.838.860 bytes (17,1 % menor).
+- Copiado el video elegido `TALLER E INSTALACION/TALLER.mp4` sin cambios; hash SHA-256 idéntico al original. Los originales de `Docs/` no se modificaron.
+- Recargada la landing local: respondió y conservó la vista, sin cambios visuales ni referencias nuevas. En esta entrada, el Paso 2 estaba listo para revisión.
+
+## [2026-11-24] aprobación | cierre del Paso 2
+- La usuaria aprobó las copias locales de los activos. Se marcó el Paso 2 como completado; todavía no se modificaron las referencias de imágenes en la landing.
+- Próximo paso: elegir la imagen principal para portada; `Docs/RADA/PORTADA.jpeg` contiene muestras de acabado y no fue elegida.

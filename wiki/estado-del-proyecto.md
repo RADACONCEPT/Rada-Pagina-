@@ -21,4 +21,6 @@ fuentes: ["package.json", "src/", "Docs/", "instrucciones del agente"]
 - **Confirmado:** se instalaron las cinco skills del Paso 0 en `.agents/skills/`: `seo-organico-ia`, `tratamiento-datos-landing`, `emil-design-eng`, `mobile-native` e `impeccable`. `Transitions` queda opcional para el paso 10.
 - **Confirmado:** el plan fue copiado a `plan-mejoras.md` y el Paso 0 quedó marcado; los paquetes de origen y notas de validación permanecen fuera de Git.
 - **Confirmado por la usuaria:** oferta principal de mobiliario para acabados de hogares, oficinas y espacios comerciales; enfoque residencial y comercial en la región norte de Colombia; equipo que incluye arquitectura y diseño. WhatsApp `+57 350 289 9088` e Instagram `@rada_concept` siguen correctos, así como las redes existentes. La política de datos se incluye en el plan y la cocina interactiva queda opcional.
-- **Siguiente paso:** Paso 1 aprobado y cerrado por la usuaria el 2026-11-24. Preparar copias de trabajo livianas de los activos para la landing, manteniendo intactos los originales de `Docs/`.
+- **Paso 1:** aprobado y cerrado por la usuaria el 2026-11-24.
+- **Paso 2:** cerrado por la usuaria el 2026-11-24; 42 JPEG optimizados y el video `TALLER.mp4` original quedaron guardados en `public/assets/rada/`. La landing se recargó correctamente y conserva su aspecto porque los archivos aún no están conectados al código.
+- **Siguiente paso:** escoger la foto aprobada para la portada del sitio y proceder con el Paso 3.

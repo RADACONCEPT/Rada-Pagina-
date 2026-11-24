@@ -125,6 +125,12 @@ Total: **18 archivos de video** (17 MP4 y 1 MOV). Los nombres ayudan a ubicar lo
 
 **Resultado de revisión local 2026-11-24:** las fotos que hoy aparecen en la landing vienen de URLs externas. No hay evidencia en el código de conexión con las 42 fotos de `Docs/`. Los nombres visibles de los seis proyectos no corresponden a etiquetas de archivo que se puedan asociar inequívocamente; validar texto y fotos antes de reemplazar. La auditoría visual del sitio está limitada al navegador disponible en esta sesión; no equivale a prueba en teléfono físico.
 
+## Copias locales preparadas para la landing
+
+- `public/assets/rada/` contiene las 42 fotos aprobadas, organizadas en las mismas carpetas de proyecto que `Docs/`. Son copias JPEG reencodificadas a calidad 82 y lado máximo 1800 px. Total: 6.838.860 bytes frente a 8.253.382 bytes originales (reducción de 17,1 %).
+- `public/assets/rada/TALLER E INSTALACION/TALLER.mp4` es una copia sin reencodificar del video elegido; SHA-256 coincide con el original de `Docs/`.
+- Los originales no se modificaron. La usuaria revisó y aprobó las copias el 2026-11-24. Las imágenes todavía no están referenciadas desde la landing; eso corresponde a pasos siguientes.
+
 ## Pendiente de validación
 
 - Revisar visualmente el video seleccionado `Docs/TALLER E INSTALACION/TALLER.mp4`; no reportar reproducción aún.
