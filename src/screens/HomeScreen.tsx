@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Project, ScreenType } from '../types';
-import { PROJECTS, SERVICES, TESTIMONIALS, FAQS, STUDIO_INFO } from '../data/mockData';
+import { SERVICES, TESTIMONIALS, FAQS, STUDIO_INFO } from '../data/mockData';
+import { PROJECTS } from '../data/portfolioData';
 import { KitchenSimulator } from '../components/KitchenSimulator';
 
 interface HomeScreenProps {
@@ -23,16 +24,16 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   return (
     <div className="flex flex-col w-full">
       {/* 1. HERO SECTION */}
-      <section className="relative -mt-20 flex min-h-[90vh] flex-col overflow-hidden bg-[#fcf9f3] pt-20 lg:flex-row">
-        <div className="relative flex min-h-[42vh] items-center justify-center bg-[#e8e4dc] px-5 py-8 sm:min-h-[52vh] lg:min-h-0 lg:w-[46%] lg:px-10 lg:py-12">
+      <section className="relative -mt-20 flex min-h-[90vh] flex-col overflow-hidden bg-[#fcf9f3] pt-20 md:flex-row">
+        <div className="relative flex min-h-[42vh] items-center justify-center bg-[#e8e4dc] px-5 py-8 sm:min-h-[52vh] md:min-h-0 md:w-[46%] md:px-10 md:py-12">
           <img
-            src="/assets/rada/RADA/PORTADA.jpeg"
-            alt="Muestras de madera y superficies para acabados de interiores"
-            className="max-h-[52vh] w-full object-contain sm:max-h-[62vh] lg:max-h-[calc(90vh-3rem)]"
+            src="/assets/rada/SHOW ROOM RADA CONCEPT/ESPACIO RADA 8.jpeg"
+            alt="Espacio Rada 8 en el showroom de Rada Concept"
+            className="max-h-[52vh] w-full object-contain sm:max-h-[62vh] md:max-h-[calc(90vh-3rem)]"
           />
         </div>
 
-        <div className="mx-auto flex w-full max-w-3xl flex-col items-center justify-center px-5 py-14 text-center sm:px-8 lg:w-[54%] lg:max-w-none lg:px-12 lg:py-20">
+        <div className="mx-auto flex w-full max-w-3xl flex-col items-center justify-center px-5 py-14 text-center sm:px-8 md:w-[54%] md:max-w-none md:px-12 md:py-20">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md mb-6 border border-white/20">
             <span className="w-2 h-2 rounded-full bg-[#6b5d40]" />
             <span className="text-[11px] uppercase tracking-[0.14em] font-medium text-[#4c4546]">
@@ -40,7 +41,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             </span>
           </div>
 
-          <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl text-[#1c1c18] max-w-4xl tracking-tight leading-[1.15] mb-6 font-normal">
+          <h1 className="font-serif text-3xl sm:text-5xl md:text-[clamp(2.25rem,4.5vw,3.75rem)] text-[#1c1c18] max-w-4xl tracking-tight leading-[1.15] mb-6 font-normal">
             Espacios elegantes y funcionales, diseñados a tu medida
           </h1>
 
@@ -48,12 +49,12 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             Diseño, arquitectura e interiorismo en Valledupar y todo el país. Cotización 100 % gratuita.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+          <div className="flex flex-col items-center gap-4 w-full md:max-w-md xl:flex-row xl:max-w-none">
             <a
               href={`${STUDIO_INFO.whatsappUrl}?text=${encodeURIComponent('Hola Rada Concept, deseo mi cotización gratuita para mi proyecto.')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#fcf9f3] text-black px-8 py-4 rounded shadow-xl hover:bg-[#f1ddb8] transition-all duration-300 transform hover:-translate-y-0.5"
+              className="group w-full xl:w-auto inline-flex items-center justify-center gap-3 bg-[#fcf9f3] text-black px-8 py-4 rounded shadow-xl hover:bg-[#f1ddb8] transition-all duration-300 transform hover:-translate-y-0.5"
             >
               <span className="material-symbols-outlined text-[22px] text-[#6b5d40]">chat</span>
               <span className="text-xs uppercase tracking-[0.14em] font-semibold">
@@ -66,7 +67,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
 
             <button
               onClick={() => onNavigate('galeria')}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded border border-[#6b5d40]/50 text-[#1c1c18] hover:bg-[#f1ddb8]/40 transition-colors text-xs uppercase tracking-[0.14em] font-medium"
+              className="w-full xl:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded border border-[#6b5d40]/50 text-[#1c1c18] hover:bg-[#f1ddb8]/40 transition-colors text-xs uppercase tracking-[0.14em] font-medium"
             >
               <span className="material-symbols-outlined text-[18px]">photo_library</span>
               <span>Explorar Portafolio</span>
@@ -364,13 +365,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
                 Nuestros proyectos
               </h2>
             </div>
-            <p className="text-sm text-[#4c4546] font-light max-w-sm">
-              Materialidad honesta, luz cálida y proporciones puras construidas en Valledupar y Colombia.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {PROJECTS.map((proj) => (
+            {PROJECTS.filter((proj) => proj.featured).map((proj) => (
               <div
                 key={proj.id}
                 onClick={() => onSelectProject(proj)}
@@ -380,8 +378,14 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
                   <img
                     src={proj.imageUrl}
                     alt={proj.title}
+                    loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
+                  {proj.images.length > 1 && (
+                    <span className="absolute right-3 top-3 rounded bg-[#1c1c18]/90 px-2.5 py-1 text-[10px] uppercase tracking-wider font-semibold text-white">
+                      {proj.images.length} fotos
+                    </span>
+                  )}
                 </div>
                 <div className="p-5 bg-[#fcf9f3]">
                   <span className="text-[10px] uppercase tracking-[0.14em] font-medium text-[#6b5d40] block mb-1">
@@ -391,10 +395,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
                     {proj.title}
                   </h4>
                   <p className="text-xs text-[#4c4546] mt-1.5 font-light leading-relaxed">
-                    {proj.description}
+                    {proj.isRender ? 'Render' : proj.categoryLabel}
                   </p>
                   <div className="mt-4 pt-3 border-t border-[#cfc4c5]/20 flex items-center justify-between text-xs text-[#6b5d40]">
-                    <span className="font-medium">Ver especificaciones & fotos</span>
+                    <span className="font-medium">{proj.images.length > 1 ? `Ver ${proj.images.length} fotos` : 'Ver foto ampliada'}</span>
                     <span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">
                       arrow_forward
                     </span>

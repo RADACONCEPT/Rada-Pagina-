@@ -3,16 +3,11 @@ export type ScreenType = 'home' | 'quienes-somos' | 'servicios' | 'galeria' | 'c
 export interface Project {
   id: string;
   title: string;
-  category: 'residencial' | 'comercial' | 'corporativo' | 'cocinas' | 'detalles';
+  category: string;
   categoryLabel: string;
-  location: string;
-  city: string;
-  description: string;
-  longDescription: string;
   imageUrl: string;
-  materials: string[];
-  area?: string;
-  year: string;
+  images: { src: string; title: string }[];
+  isRender?: boolean;
   featured?: boolean;
 }
 

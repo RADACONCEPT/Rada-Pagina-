@@ -1,4 +1,4 @@
-import { Project, ServiceItem, MaterialSample, Testimonial, FaqItem } from '../types';
+import { ServiceItem, MaterialSample, Testimonial, FaqItem } from '../types';
 
 export const STUDIO_INFO = {
   name: 'Rada Concept',
@@ -18,98 +18,7 @@ export const STUDIO_INFO = {
   googleMapsUrl: 'https://maps.google.com/?q=Carrera+9+8-48+Valledupar+Colombia'
 };
 
-export const PROJECTS: Project[] = [
-  {
-    id: 'cocina-isla-nacar',
-    title: 'Cocina Isla Nácar',
-    category: 'cocinas',
-    categoryLabel: 'Residencial • Valledupar',
-    location: 'Valledupar, Cesar',
-    city: 'Valledupar',
-    description: 'Mármol Calacatta, palillaje de roble y cava integrada',
-    longDescription: 'Diseño integral de cocina abierta en concepto abierto con isla cascada monolítica en cuarzo Calacatta Gold. Frentes en madera natural con alistonado vertical, alacenas ocultas de piso a techo y cava de vinos empotrada con iluminación cálida 2700K regulable.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBFeRsiz0Zz684LlKO2yFx5FPiIOpXmrbmR3sq1BtMHxsR5f4QQsr2TEb7vhS_uI0l_ynAlOgyWrpEesgzn4mvTnIuZhWhHivDzwBwq7vkjolW0D4eoOim6hF9yABCiqRdJdmaroQpj80-27h7vZITaDJMSYUHWbEGszPrXk7m_KQbHmak_6eeRLV0T-wNGE0QL2Mmt_o4h1gdcsqbIM71zni_T22gVozsdP06ff4Q2',
-    materials: ['Cuarzo Calacatta Gold', 'Roble Europeo Alistonado', 'Herrajes Blum Blumotion', 'Perfilería Oculta Negro Mate'],
-    area: '42 m²',
-    year: '2024',
-    featured: true
-  },
-  {
-    id: 'salon-monolitico',
-    title: 'Salón Monolítico',
-    category: 'residencial',
-    categoryLabel: 'Residencial • Novalito',
-    location: 'Barrio Novalito, Valledupar',
-    city: 'Valledupar',
-    description: 'Panel alistonado retroiluminado y chimenea contemporánea',
-    longDescription: 'Remodelación de área social principal en residencia privada en Novalito. Revestimiento de muro en palillaje continuo de roble con iluminación lineal LED embutida, hogar decorativo con piedra sinterizada oscura y mesa de centro monolítica en travertino romano de bordes rústicos.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDHfOe7_zXvfEIIYrbSrzXxibg0E46YHYyla8HZpbpcR6qY6Amy_DCErYN0mwJDAnEtjU-P2EVPXjUvomZTrhD_UAch98UmLbNvMVePTHRsNA64cQdFt_dIW179xVuBeSekqiE7StSEev7tNHJ-FjWNUEm24EWjYClUxhjr-RFRfyzI8tAeFsdcQ8-kJcvFFYMyOioDWZ08y1cy_oQKReYMvi8YgIy-94OzQEcuXGZI',
-    materials: ['Madera de Roble Curado', 'Travertino Romano', 'Ventanería Acero Negro', 'Lino Orgánico Natural'],
-    area: '68 m²',
-    year: '2024',
-    featured: true
-  },
-  {
-    id: 'boutique-aurelia',
-    title: 'Boutique Aurelia',
-    category: 'comercial',
-    categoryLabel: 'Comercial • Valledupar',
-    location: 'Centro Comercial / Calle 12, Valledupar',
-    city: 'Valledupar',
-    description: 'Arcos orgánicos con luz indirecta y texturas en microcemento',
-    longDescription: 'Espacio comercial insignia concebido para crear una atmósfera inmersiva de calma y sofisticación. Nichos arqueados con iluminación perimetral tenue que realzan la exhibición de marroquinería y joyería de autor. Piso continuo en terrazo mineral y colgadores en latón cepillado.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDPcrQudErawxweWEB5EkTBCtnkAZx3TlQzvRlBlICoMqMVvLPE76V-JiRZF2gRdMLiVePRLDUEtDRuDgBE0AKMZrNcbvMaK2ssV7UflC-VF5XFG-DNFca8dSLOXGY0tfQBTMvGQyEtyrDorcnORFKrZrPHU0G9BmPozu9GS79-rH27VbaWVCROfnXkBclndS3SKw3cJ6ogb50Y2P8zyNRsbCEv3YL-98vZeGn04Cu7',
-    materials: ['Microcemento Mineral Cálido', 'Latón Cepillado Champagne', 'Piso Terrazo Marfil', 'Mobiliario Roble Natural'],
-    area: '95 m²',
-    year: '2024',
-    featured: true
-  },
-  {
-    id: 'oficina-presidencial',
-    title: 'Oficina Presidencial',
-    category: 'corporativo',
-    categoryLabel: 'Corporativo • Valledupar',
-    location: 'Edificio Empresarial, Valledupar',
-    city: 'Valledupar',
-    description: 'Alistonado acústico, escritorio de travertino y sobriedad ejecutiva',
-    longDescription: 'Despacho corporativo para alta gerencia. Panel acústico de madera ranurada con iluminación cenital suspendida escultórica, escritorio escultórico ejecutado en losa maciza de mármol travertino y salón de juntas adyacente con cerramientos en vidrio templado y aluminio negro mate.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD1j9YmGoe-lionkbIzbqes-lZ1kFWDVNWF_6KLDv4QaCmJ8TgQnaoA1XZ0upRxdVueRh1R-h-rKf1E7w-c2TfYLGi2yiLNVCJRhBXpubTA2UIuPlUnl34EnTbaPDIFCjgwjdXMLD-Kg7G4iqzMGMY8QAe23hUTSlL2RKB5K9qcNrqO09m5eibSuBmA2MGp_qGc9sGU53BUtgpXzHXom2LY-_Dmwl3v781p5d7ypxEb',
-    materials: ['Travertino Esculpido', 'Madera Acústica Absorbente', 'Vidrio Flotado Acústico', 'Textiles Bouclé Crema'],
-    area: '54 m²',
-    year: '2023',
-    featured: true
-  },
-  {
-    id: 'comedor-serena',
-    title: 'Comedor Serena',
-    category: 'residencial',
-    categoryLabel: 'Residencial • Club Campestre',
-    location: 'Sector Club Campestre, Valledupar',
-    city: 'Valledupar',
-    description: 'Madera maciza, textiles en lino crudo y apertura al jardín exterior',
-    longDescription: 'Comedor social formal integrado visualmente al patio tropical. Mesa redonda en madera maciza de zapan con base cónica, sillas ergonómicas tapizadas en lino belga repelente a manchas y lámpara central suspendida de geometría orgánica.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA8xvga3oKLcisnyShnTHfqnMf3LYLvJxqvdDb5W964cpk-S2_noLUWrC05acmEHFWLgHggoB8VVTG_KjuhhTw14KPzr8X5yMb-C3tKB2ty-uDi7Yla_-yw5Y-yklUeRinnDZS8iy8oZmALrXgytgdvPsalXHNqOBOnSPLt06VvQDzJ4TPBlV7iohmYye9DY71AdAhRSNjGslXKW0Efppe2ymJV5VtEj0un6ZQqwUrg',
-    materials: ['Madera Maciza de Zapan', 'Lino Puro Belga', 'Iluminación Cálida 2400K', 'Carpintería Perimetral de Nogal'],
-    area: '38 m²',
-    year: '2024',
-    featured: true
-  },
-  {
-    id: 'carpinteria-de-autor',
-    title: 'Carpintería de Autor',
-    category: 'detalles',
-    categoryLabel: 'Detalle • Mobiliario a Medida',
-    location: 'Taller & Proyectos Especiales',
-    city: 'Valledupar',
-    description: 'Manufactura milimétrica, perfiles ocultos y calidez sensorial',
-    longDescription: 'Detalle de manufactura en taller propio. Cada unión a 45 grados, ranura acústica y gola oculta es calibrada a mano con maderas secadas al horno y selladas con aceites naturales no tóxicos para resistir el clima caribeño.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDb_KBUpT4cq-LhADVtlf1tV2KRfRikZnzJK9CE6O1Lq1IZyj3Gr4joJm9x2Vh69mroT2mn1v3-5_NufdcY1NMbF5NB1zDMLBdtt988LvR1LaiSe4q--GgaboGCIDxEqkWC2Ywd4C6Y7udo4bBcTxLj1b22jEutoZD66CotIM0A4y0bxCcBP23zslr0EiDqcSQJj3jJS4rq-yih2DMn2XSmZA4y8iagwcfx0KDTtZRt',
-    materials: ['Palillería de Roble Selecto', 'Aceites Naturales Mate', 'Perfiles de Difusión LED', 'Estructuras Reforzadas'],
-    area: 'Mobiliario Fijo',
-    year: '2024',
-    featured: true
-  }
-];
+export { PROJECTS } from './portfolioData';
 
 export const SERVICES: ServiceItem[] = [
   {

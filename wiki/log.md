@@ -68,3 +68,15 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 - La usuaria eligió `Docs/RADA/PORTADA.jpeg`. Se reemplazó la foto remota del hero por la copia local optimizada y se cambió a una composición con imagen completa separada del texto.
 - La usuaria revisó la vista previa local y respondió «OK». `npm run build`, `npm run lint` y `git diff --check` finalizaron correctamente. El build conserva una advertencia ya conocida sobre `__dirname` en Vite.
 - Paso 3 marcado como completado. El siguiente es el Paso 4: relacionar las fotos con los proyectos de las galerías.
+
+## [2026-11-24] preparación | correspondencia de galerías
+- Revisados el catálogo visual actualizado, `src/data/mockData.ts` y `src/screens/PortfolioScreen.tsx`. La galería muestra seis tarjetas con nombres/descripciones que no se pueden verificar a partir de los nombres de los activos.
+- `COCINA CON ISLA.jpeg` es una coincidencia nominal con la tarjeta de cocina; no se asumieron equivalencias para los demás proyectos. Los dos archivos en `RENDERS` deben distinguirse de fotografías de obra construida.
+- La usuaria confirmó usar nombres de archivo como rótulos, mezclar renders identificados y destacar Cocina, Proyectos comerciales, Intervención civil y Centro de TV en Inicio. Decidió agregar fotos comerciales más adelante; no se usan imágenes del showroom como sustituto.
+- La usuaria pidió dejar fuera de Intervención civil los renders de escalera por ahora. Se armó una versión local con álbumes para las fotos de recubrimiento, Centro TV Barcelona, showroom y escaleras; los proyectos con nombres diferenciados conservan sus propias tarjetas. La copia duplicada de Centro TV se omitió. También se puso la portada en composición horizontal manteniendo la foto íntegra y se sustituyó la imagen de «Filosofía y taller» por `INSTALACION.jpeg`, a petición de la usuaria.
+- Build y lint correctos; 33 rutas de foto comprobadas. El cambio está pendiente de revisión visual; no se ha hecho commit/push.
+
+## [2026-11-24] ajuste | foto real para la portada
+- La usuaria indicó que la imagen de muestras usada inicialmente no corresponde a una foto real de Rada Concept y pidió cambiar también la imagen principal.
+- Tras revisar opciones, la usuaria eligió `public/assets/rada/SHOW ROOM RADA CONCEPT/ESPACIO RADA 8.jpeg` para el hero; la composición horizontal se conserva.
+- La usuaria aprobó la vista local. Build, lint y `git diff --check` correctos; Paso 4 y el ajuste de portada cerrados. Se preparan los cambios para commit en `origin/main`; esto no publica el sitio.

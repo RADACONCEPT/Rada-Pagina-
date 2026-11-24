@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { PROJECTS, STUDIO_INFO } from '../data/mockData';
+import { STUDIO_INFO } from '../data/mockData';
+import { PROJECTS } from '../data/portfolioData';
 import { Project } from '../types';
 
 interface PortfolioScreenProps {
@@ -16,11 +17,10 @@ export const PortfolioScreen: React.FC<PortfolioScreenProps> = ({
 
   const categories = [
     { id: 'todos', label: 'Todos' },
-    { id: 'residencial', label: 'Residencial' },
-    { id: 'comercial', label: 'Comercial' },
-    { id: 'corporativo', label: 'Corporativo' },
-    { id: 'cocinas', label: 'Cocinas' },
-    { id: 'detalles', label: 'Carpintería & Detalles' },
+    ...Array.from(
+      new Map(PROJECTS.map((project) => [project.category, project.categoryLabel])).entries(),
+      ([id, label]) => ({ id, label }),
+    ),
   ];
 
   const filteredProjects = useMemo(() => {
@@ -30,9 +30,8 @@ export const PortfolioScreen: React.FC<PortfolioScreenProps> = ({
       const matchesSearch =
         searchTerm === '' ||
         proj.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        proj.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        proj.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        proj.materials.some((m) => m.toLowerCase().includes(searchTerm.toLowerCase()));
+        proj.categoryLabel.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        proj.images.some((image) => image.title.toLowerCase().includes(searchTerm.toLowerCase()));
 
       return matchesCategory && matchesSearch;
     });
@@ -137,11 +136,19 @@ export const PortfolioScreen: React.FC<PortfolioScreenProps> = ({
                   <img
                     src={proj.imageUrl}
                     alt={proj.title}
+                    loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2.5 py-1 rounded text-[10px] uppercase tracking-wider font-semibold text-[#1c1c18]">
-                    {proj.year}
-                  </div>
+                  {proj.isRender && (
+                    <span className="absolute top-3 right-3 bg-[#1c1c18]/90 px-2.5 py-1 text-[10px] uppercase tracking-wider font-semibold text-white">
+                      Render
+                    </span>
+                  )}
+                  {proj.images.length > 1 && (
+                    <span className="absolute bottom-3 left-3 bg-[#fcf9f3]/95 px-2.5 py-1 text-[10px] uppercase tracking-wider font-semibold text-[#1c1c18]">
+                      {proj.images.length} fotos
+                    </span>
+                  )}
                 </div>
 
                 <div className="p-5 flex-1 flex flex-col justify-between">
@@ -152,13 +159,12 @@ export const PortfolioScreen: React.FC<PortfolioScreenProps> = ({
                     <h4 className="font-serif text-xl text-[#1c1c18] font-medium group-hover:text-[#6b5d40] transition-colors">
                       {proj.title}
                     </h4>
-                    <p className="text-xs text-[#4c4546] mt-1.5 font-light leading-relaxed">
-                      {proj.description}
-                    </p>
                   </div>
 
                   <div className="mt-5 pt-3 border-t border-[#f0eee8] flex items-center justify-between text-xs text-[#6b5d40]">
-                    <span className="font-medium">Ver detalles técnicos</span>
+                    <span className="font-medium">
+                      {proj.images.length > 1 ? `Ver ${proj.images.length} fotos` : 'Ampliar foto'}
+                    </span>
                     <span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">
                       arrow_forward
                     </span>

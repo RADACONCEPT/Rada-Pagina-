@@ -46,14 +46,14 @@ Este es el plan canónico del checkout actual, que la usuaria confirmó como fue
 
   > Lee `plan-mejoras.md` y haz solo el paso 3. Cambia la imagen principal genérica por la foto de portada que indiqué en `Docs`. Que se vea completa en celular y computador, sin recortes que oculten el acabado, y que el texto encima se lea bien.
 
-  **Elegida por la usuaria:** `Docs/RADA/PORTADA.jpeg`, foto vertical de muestras de madera y superficies. Se integró su copia optimizada en `public/assets/rada/RADA/PORTADA.jpeg`, completa y sin recorte; el texto quedó en un panel independiente. La usuaria revisó la vista local y respondió «OK» el 24-11-2026. Build y lint correctos. **Paso cerrado el 24-11-2026.**
+  **Elección original:** `Docs/RADA/PORTADA.jpeg`, foto vertical de muestras de madera y superficies. Se integró su copia optimizada en `public/assets/rada/RADA/PORTADA.jpeg`, completa y sin recorte; el texto quedó en un panel independiente. Tras pedir una foto real del showroom, la usuaria eligió `public/assets/rada/SHOW ROOM RADA CONCEPT/ESPACIO RADA 8.jpeg` y aprobó la vista local el 24-11-2026. **Ajuste cerrado** junto con el Paso 4.
   **Quedó bien si:** la portada muestra la foto de acabados elegida y se ve bien en celular y computador.
 
 - [ ] **Paso 4 · Galerías con las fotos correctas** *(Nivel de modelo: alto)*
 
   > Lee `plan-mejoras.md` y haz solo el paso 4. Cambia todas las imágenes genéricas de las galerías, incluida la cocina, por las fotos de cada proyecto según las carpetas de `Docs`. Cada galería debe mostrar solo fotos de su proyecto. Al abrir una foto en grande y volver, la persona debe seguir en el mismo lugar de la página. Muéstrame la lista de cambios: qué imagen había y cuál quedó.
 
-  **Necesitas en Docs:** la usuaria ya organizó los activos por carpetas y confirmó permiso de publicación para todas las fotos. Verificar la correspondencia de nombres de proyectos que aparecen hoy en la landing antes de reemplazar las seis tarjetas externas.
+  **Cerrado con aprobación de la usuaria (24-11-2026):** 33 fotos quedaron organizadas en tarjetas/álbumes con rótulos tomados de los archivos. Se agruparon las dos vistas del recubrimiento de pared, las dos vistas del Centro TV Barcelona, las diez fotos del showroom y los dos renders de escalera; los demás nombres corresponden a entradas separadas. La copia duplicada `CENTRO TV CON VITRINA LICORES.jpeg` quedó fuera del portafolio. Los renders de escalera se identifican como renders y no se asociaron a Intervención civil, según indicó la usuaria. Se muestran fotos para Cocina, Intervención civil y Centro TV; la categoría comercial queda pendiente de fotos, que la usuaria agregará más adelante. El visor cambia entre todas las fotos del álbum, permite cerrar con Esc y conserva la posición de la galería. La portada horizontal usa `ESPACIO RADA 8.jpeg`, elegida por la usuaria; «Filosofía y taller» usa `INSTALACION.jpeg`. Build, lint y verificación de 33 rutas de imagen correctos. **Paso completado; queda pendiente hacer commit y sincronizar a origin/main.**
   **Quedó bien si:** no queda ninguna imagen genérica y cada galería corresponde a un proyecto real.
 
 - [ ] **Paso 5 · Quiénes somos** *(Nivel de modelo: medio)*
