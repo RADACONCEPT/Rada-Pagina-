@@ -2,7 +2,7 @@
 tipo: indice
 estado: confirmado
 creado: 2026-11-10
-actualizado: 2026-11-10
+actualizado: 2026-11-24
 tags: [wiki, rada-concept]
 fuentes: ["Instrucciones del agente pegadas por la usuaria", "archivos del proyecto"]
 ---

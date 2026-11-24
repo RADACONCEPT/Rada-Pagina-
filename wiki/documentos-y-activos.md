@@ -2,69 +2,133 @@
 tipo: catalogo
 estado: provisional
 creado: 2026-11-10
-actualizado: 2026-11-20
+actualizado: 2026-11-24
 tags: [fuentes, activos, docs]
-fuentes: ["inventario local de Docs/", "revisión visual de miniaturas"]
+fuentes: ["inventario recursivo de Docs/", "revisión visual local de fotografías", "código de la landing"]
 ---
 # Documentos y activos
 
-`Docs/` contiene originales empresariales y está excluida de Git. La usuaria confirmó el 2026-11-20 que **todas las fotos tienen permiso de publicación**. Las descripciones visuales no confirman a qué proyecto pertenece cada foto. No renombrar, modificar ni copiar los originales. La hoja visual numerada está en `C:\Users\USUARIO\.codex\visualizations\2026\11\10\01a1c71b-583c-7472-aa5e-5f14bf66510f\catalogo-activos-rada.png`.
+`Docs/` contiene originales empresariales, excluidos de Git. El 2026-11-20 la usuaria confirmó permiso de publicación para todas las fotos. Los nombres y carpetas de proyecto los asignó la usuaria; conservan ese significado como etiquetas de catálogo. No renombrar, editar ni copiar originales sin que un paso lo requiera. La hoja visual actualizada muestra las 42 fotos.
 
-## Identidad y documentos
+## Inventario de documentos
 
-- `Docs/Manual de marca Rada Concept 2-2.pdf` — manual de 14 páginas. Solo se revisó visualmente la portada; páginas internas pendientes.
-- `Docs/WhatsApp Image 2026-10-07 at 3.26.29 PM.jpeg` — logotipo (ID 02 en la hoja visual). Confirmar versión y permiso de uso.
-- `Docs/RUT GRUPO VILORIA RADA.pdf` — documento tributario empresarial. Existe para apoyar la política de privacidad; revisar solo localmente y no copiar datos sensibles a la wiki, frontend ni Git.
+- `Docs/RADA/Manual de marca Rada Concept 2-2.pdf` — manual de 14 páginas; revisada visualmente solo la portada, páginas internas pendientes.
+- `Docs/RADA/RUT GRUPO VILORIA RADA.pdf` — documento tributario empresarial; mantener local y excluir su contenido sensible de Git/frontend/wiki.
+- No se encontraron documentos de texto separados con misión, visión o textos de marca.
 
 ## Fotografías
 
-La numeración coincide con la hoja visual; utilízala para acordar asociaciones. Hay dos pares byte-a-byte duplicados: IDs 03/05 e IDs 04/08.
+Total: **42 JPEG**, todas con permiso de publicación confirmado. Listado agrupado por la estructura de carpetas que preparó la usuaria:
 
+### Raíz de Docs
+- `Docs/MINI BAR.jpeg`
+- `Docs/MUEBLE BAÑO.jpeg`
+- `Docs/ORATORIO.jpeg`
+- `Docs/RECUBRIMIENTO DE PARED CON PUERTA OCULTA 2.jpeg`
+- `Docs/RECUBRIMIENTO DE PARED CON PUERTA OCULTA.jpeg`
 
-- **ID 01** — `Docs/PORTADA.jpeg` (138.385 bytes).
-- **ID 02** — `Docs/WhatsApp Image 2026-10-07 at 3.26.29 PM.jpeg` (24.180 bytes).
-- **ID 03** — `Docs/WhatsApp Image 2026-10-07 at 4.40.08 PM (1).jpeg` (447.998 bytes).
-- **ID 04** — `Docs/WhatsApp Image 2026-10-07 at 4.40.08 PM.jpeg` (880.192 bytes).
-- **ID 05** — `Docs/WhatsApp Image 2026-10-07 at 4.40.09 PM (1).jpeg` (447.998 bytes).
-- **ID 06** — `Docs/WhatsApp Image 2026-10-07 at 4.40.09 PM (2).jpeg` (112.491 bytes).
-- **ID 07** — `Docs/WhatsApp Image 2026-10-07 at 4.40.09 PM (3).jpeg` (128.371 bytes).
-- **ID 08** — `Docs/WhatsApp Image 2026-10-07 at 4.40.09 PM.jpeg` (880.192 bytes).
-- **ID 09** — `Docs/WhatsApp Image 2026-10-07 at 4.40.10 PM.jpeg` (122.470 bytes).
-- **ID 10** — `Docs/WhatsApp Image 2026-10-19 at 8.58.58 AM (2).jpeg` (179.329 bytes).
-- **ID 11** — `Docs/WhatsApp Image 2026-10-19 at 8.58.58 AM (3).jpeg` (118.187 bytes).
-- **ID 12** — `Docs/WhatsApp Image 2026-10-19 at 8.58.58 AM (4).jpeg` (205.624 bytes).
-- **ID 13** — `Docs/WhatsApp Image 2026-10-19 at 8.58.58 AM (5).jpeg` (108.766 bytes).
-- **ID 14** — `Docs/WhatsApp Image 2026-10-19 at 8.58.58 AM (6).jpeg` (338.591 bytes).
-- **ID 15** — `Docs/WhatsApp Image 2026-10-19 at 8.58.58 AM.jpeg` (126.478 bytes).
-- **ID 16** — `Docs/WhatsApp Image 2026-10-19 at 8.58.59 AM (1).jpeg` (156.340 bytes).
-- **ID 17** — `Docs/WhatsApp Image 2026-10-19 at 8.58.59 AM (2).jpeg` (116.108 bytes).
-- **ID 18** — `Docs/WhatsApp Image 2026-10-19 at 8.58.59 AM (3).jpeg` (138.446 bytes).
-- **ID 19** — `Docs/WhatsApp Image 2026-10-19 at 8.58.59 AM (4).jpeg` (118.711 bytes).
-- **ID 20** — `Docs/WhatsApp Image 2026-10-19 at 8.58.59 AM (5).jpeg` (157.506 bytes).
-- **ID 21** — `Docs/WhatsApp Image 2026-10-19 at 8.58.59 AM (6).jpeg` (126.604 bytes).
-- **ID 22** — `Docs/WhatsApp Image 2026-10-19 at 8.58.59 AM.jpeg` (100.726 bytes).
-- **ID 23** — `Docs/WhatsApp Image 2026-10-19 at 8.59.00 AM (1).jpeg` (139.553 bytes).
-- **ID 24** — `Docs/WhatsApp Image 2026-10-19 at 8.59.00 AM (2).jpeg` (172.928 bytes).
-- **ID 25** — `Docs/WhatsApp Image 2026-10-19 at 8.59.00 AM (3).jpeg` (181.672 bytes).
-- **ID 26** — `Docs/WhatsApp Image 2026-10-19 at 8.59.00 AM.jpeg` (230.217 bytes).
+### CENTRO TV
+- `Docs/CENTRO TV\CENTRO DE TV CON LICORERA BARCELONA 2.jpeg`
+- `Docs/CENTRO TV\CENTRO DE TV.jpeg`
+- `Docs/CENTRO TV\CENTRO TV 2.jpeg`
+- `Docs/CENTRO TV\CENTRO TV CON LICORERA BARCELONA.jpeg`
+- `Docs/CENTRO TV\CENTRO TV CON VITRINA LICORES.jpeg`
 
-`PORTADA.jpeg` es ID 01 y visualmente muestra muestras de acabados. No equivale a una elección para la portada del sitio. La usuaria todavía debe asociar los IDs con sus proyectos/galerías y elegir la portada.
+### CLOSET Y WALKIN CLOSET
+- `Docs/CLOSET Y WALKIN CLOSET\CLOSET ALINA.jpeg`
+- `Docs/CLOSET Y WALKIN CLOSET\WALKIN CLOSET.jpeg`
+
+### COCINAS
+- `Docs/COCINAS\COCINA CAMPESTRE BONDA.jpeg`
+- `Docs/COCINAS\COCINA CON ISLA.jpeg`
+- `Docs/COCINAS\COCINA CON PENINSULA.jpeg`
+- `Docs/COCINAS\COCINA LA RIOJA.jpeg`
+- `Docs/COCINAS\COCINA LINEAL.jpeg`
+- `Docs/COCINAS\COCINA MAICOL.jpeg`
+
+### HABITACIONES
+- `Docs/HABITACIONES\CUARTO INFANTIL.jpeg`
+
+### MATERIALES
+- `Docs/MATERIALES\MATERIALES 2.jpeg`
+- `Docs/MATERIALES\MATERIALES 3.jpeg`
+- `Docs/MATERIALES\MATERIALES 4.jpeg`
+- `Docs/MATERIALES\MATERIALES.jpeg`
+
+### RADA
+- `Docs/RADA\INAGURACION RADA.jpeg`
+- `Docs/RADA\LOGO.jpeg`
+- `Docs/RADA\NUESTROS SERVICIOS.jpeg`
+- `Docs/RADA\PORTADA.jpeg`
+
+### RENDERS
+- `Docs/RENDERS\RECUBRIMIENTO ESCALERA DOBLE ALTURA 2.jpeg`
+- `Docs/RENDERS\RENDER RECUBRIMIENTO ESCALERA DOBLE ALTURA.jpeg`
+
+### SHOW ROOM RADA CONCEPT
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIO RADA 4.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIO RADA 5.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIO RADA 6.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIO RADA 7.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIO RADA 8.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIO RADA 9.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIO RADA CONCEPT 2.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIO RADA CONCEPT 3.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESPACIOS RADA CONCEPT 1.jpeg`
+- `Docs/SHOW ROOM RADA CONCEPT\ESTACION DE CAFE.jpeg`
+
+### TALLER E INSTALACION
+- `Docs/TALLER E INSTALACION\INSTALACION.jpeg`
+
+### VANITY
+- `Docs/VANITY\VANITY 2.jpeg`
+- `Docs/VANITY\VANITY.jpeg`
 
 ## Videos
 
-La usuaria eligió `TALLER.mp4` para evaluar. No se ha hecho inspección visual ni técnica de los videos.
-- `Docs/TALLER.mp4` (3.003.865 bytes) — seleccionado, pendiente de revisión.
-- `Docs/WhatsApp Video 2026-10-19 at 9.00.17 AM (2).mp4` (6.333.758 bytes) — sin seleccionar.
-- `Docs/WhatsApp Video 2026-10-19 at 9.00.48 AM.mp4` (6.329.466 bytes) — sin seleccionar.
-- `Docs/WhatsApp Video 2026-10-19 at 9.01.08 AM.mp4` (5.971.168 bytes) — sin seleccionar.
+Total: **18 archivos de video** (17 MP4 y 1 MOV). Los nombres ayudan a ubicar los temas; no se han inspeccionado visualmente todos los clips. `TALLER E INSTALACION\TALLER.mp4` sigue siendo el video elegido para evaluar.
+- `Docs/CENTRO TV\CENTRO DE TV Y LICORERA BARCELONA.mp4`
+- `Docs/CENTRO TV\CENTRO DE TV.mp4`
+- `Docs/COCINAS\COCINA ALINA.mp4`
+- `Docs/COCINAS\COCINA URIBIA.mp4`
+- `Docs/HABITACIONES\HABITACION MATHIAS.mp4`
+- `Docs/PROYECTO INTERVENCION CIVIL\PROYECTO APARTAMENTO VIS.mp4`
+- `Docs/PROYECTO INTERVENCION CIVIL\RENDER PROYECTO GISEL.mp4`
+- `Docs/PROYECTOS COMERCIALES\ADECUACION CONSULTORIO ODONTOLOGICO.mp4`
+- `Docs/PROYECTOS COMERCIALES\PROYECTO COMERCIAL LALA STORE.mp4`
+- `Docs/PROYECTOS COMERCIALES\PROYECTO LALA STORE 1.mp4`
+- `Docs/PROYECTOS COMERCIALES\PROYECTO LALA STORE 2.mp4`
+- `Docs/PROYECTOS COMERCIALES\PROYECTO LALA STORE 3.mp4`
+- `Docs/RENDERS\PROCESO RADA CONCEPT.mp4`
+- `Docs/RENDERS\RENDER COCINA URIBIA.mp4`
+- `Docs/SHOW ROOM RADA CONCEPT\CORTINA MOTORIZADA WIFI.MOV`
+- `Docs/TALLER E INSTALACION\PROCESO.mp4`
+- `Docs/TALLER E INSTALACION\TALLER.mp4` — seleccionado por la usuaria; pendiente inspección.
+- `Docs/VANITY\VANITY ALEJANDRA PEINADOS.mp4`
 
-## Material externo en el sitio
+## Duplicados y calidad visual
 
-- `src/data/mockData.ts` contiene URLs de imágenes alojadas externamente; no está confirmado su origen ni permiso. Identificar sección y fuente durante el Paso 1.
-- La imagen de mapa también usa un recurso externo según la revisión previa del código. Confirmar si conservarla.
+- Se encontró un par de JPEG idénticos por SHA-256: `Docs/CENTRO TV/CENTRO DE TV.jpeg` y `Docs/CENTRO TV/CENTRO TV CON VITRINA LICORES.jpeg`. Se conservan ambos originales.
+- Las miniaturas de las fotos fueron revisadas; la imagen llamada `RADA/PORTADA.jpeg` muestra muestras de materiales. Aún no está elegida como portada de la landing.
+
+## Imágenes que usa actualmente la landing
+
+| Sección | Recurso actual | Observación |
+|---|---|---|
+| Inicio, hero | Imagen externa de Googleusercontent; comparte recurso con la tarjeta "Cocina Isla Nácar" | No proviene de `Docs/`; fuente/propiedad no confirmada. |
+| Inicio, bloque Quiénes somos; About; galería | Imagen externa repetida con alt de sala/carpintería; se comparte entre "Salón Monolítico" y "Carpintería de Autor" | Recurso duplicado y no asociable a fotos de `Docs/` solo por el alt. |
+| Portafolio de Inicio y Galería | Seis tarjetas con alt: "Cocina Isla Nácar", "Salón Monolítico", "Boutique Aurelia", "Oficina Presidencial", "Comedor Serena" y "Carpintería de Autor" | Todos usan URLs `lh3.googleusercontent.com`; no son activos locales ni se ha confirmado si son fotos propias, genéricas o generadas. |
+| Header y footer | Logo externo en `lh3.googleusercontent.com` | La carga falló en la vista revisada (`naturalWidth=0`); el nombre de marca en texto sí aparece. |
+| Ubicación (Inicio y Contacto) | Imagen de mapa externa en `lh3.googleusercontent.com` | No es un activo local de `Docs/`. |
+| Cocina interactiva | Ilustración SVG construida por el componente del simulador | No usa una fotografía de `Docs/`. |
+| Servicios y cotizador | No se detectaron fotos propias en sus pantallas | Solo lo observado en el checkout actual. |
+
+**Resultado de revisión local 2026-11-24:** las fotos que hoy aparecen en la landing vienen de URLs externas. No hay evidencia en el código de conexión con las 42 fotos de `Docs/`. Los nombres visibles de los seis proyectos no corresponden a etiquetas de archivo que se puedan asociar inequívocamente; validar texto y fotos antes de reemplazar. La auditoría visual del sitio está limitada al navegador disponible en esta sesión; no equivale a prueba en teléfono físico.
 
 ## Pendiente de validación
 
-- La usuaria y el agente deben mapear IDs de foto a proyectos/galerías y elegir la portada; los permisos de las 26 fotos están confirmados por la usuaria.
-- Revisar visualmente las páginas restantes del manual y, antes de incorporar, el video `TALLER.mp4`.
-- No incluir `Docs/` ni los originales empresariales en commits.
+- Revisar visualmente el video seleccionado `Docs/TALLER E INSTALACION/TALLER.mp4`; no reportar reproducción aún.
+- Elegir con la usuaria cuál proyecto y foto van en portada y confirmar las correspondencias entre los proyectos nombrados por el sitio y los folders que preparó.
+- Revisar páginas 2–14 del manual.
+- Confirmar textos comerciales, cifras, testimonios, direcciones y horarios del sitio antes de mantenerlos en publicación.
+- No incluir `Docs/` ni el RUT en commits.

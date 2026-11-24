@@ -2,9 +2,9 @@
 tipo: empresa
 estado: provisional
 creado: 2026-11-10
-actualizado: 2026-11-10
+actualizado: 2026-11-24
 tags: [empresa, identidad, contacto]
-fuentes: ["src/data/mockData.ts", "index.html", "Docs/Manual de marca Rada Concept 2-2.pdf", "instrucciones del agente"]
+fuentes: ["src/data/mockData.ts", "index.html", "Docs/RADA/Manual de marca Rada Concept 2-2.pdf", "instrucciones del agente"]
 ---
 # Empresa
 
@@ -22,4 +22,4 @@ fuentes: ["src/data/mockData.ts", "index.html", "Docs/Manual de marca Rada Conce
 
 ## Preferencias
 - **Confirmado por instrucción:** conversar en español claro, conservar la identidad y materiales aprobados, mantener el framework y hacer cambios pequeños. No se han confirmado otras preferencias de diseño.
-- **Confirmado por la usuaria:** revisar en conjunto el catálogo antes de asignar fotos a portada y galerías; usar el video `TALLER.mp4`. Incluir una política de tratamiento de datos en el plan. La cocina interactiva es una función opcional.
+- **Confirmado por la usuaria:** todas las fotos tienen permiso de publicación y ya están organizadas por carpetas de proyecto. Usar el video `TALLER.mp4` cuando se revise. Incluir política de tratamiento de datos en el plan. La cocina interactiva es una función opcional. La elección de portada y relación con las tarjetas actuales de la web siguen pendientes.

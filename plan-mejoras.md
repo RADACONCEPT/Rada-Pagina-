@@ -26,11 +26,13 @@ Este es el plan canónico del checkout actual, que la usuaria confirmó como fue
 
 ---
 
-- [ ] **Paso 1 · Revisar la página y el material** *(Nivel de modelo: alto)*
+- [x] **Paso 1 · Revisar la página y el material** *(Nivel de modelo: alto)*
 
   > Lee `plan-mejoras.md` y haz solo el paso 1. Audita el checkout actual (es la fuente de verdad), ejecuta la landing localmente y registra cada imagen existente y su sección, identificando lo que es externo o no se puede atribuir. Revisa el catálogo de `Docs`, incluidos nombres y materiales; no copies ni publiques nada todavía. Anota qué falta y qué necesita confirmación. No cambies la landing.
 
-  **Necesitas en Docs:** nada adicional para auditar; las fotos están pendientes de asociación y aprobación de la usuaria.
+  **Material revisado (24-11-2026):** `Docs/` ahora tiene 42 fotos y 18 videos organizados por carpetas con nombres asignados por la usuaria. La usuaria confirmó permiso de publicación para todas las fotos. La hoja visual actualizada está en `C:\Users\USUARIO\.codex\visualizations\2026\11\10\01a1c71b-583c-7472-aa5e-5f14bf66510f\catalogo-activos-rada-actualizado.png`.
+  **Hallazgos de la landing:** Inicio, galería, Quiénes somos y Contacto muestran recursos externos de Googleusercontent; las fotos de `Docs/` no están conectadas al sitio. El logo externo no cargó en la vista revisada. Las seis tarjetas del portafolio reutilizan una imagen entre dos nombres; no está confirmado el origen de las imágenes externas ni si son propias, genéricas o generadas. El simulador usa una ilustración SVG.
+  **Cerrado el 24-11-2026:** la usuaria dio visto bueno a la auditoría. No se modificó la landing. La revisión fue en el navegador disponible, no en teléfono físico.
   **Quedó bien si:** hay inventario de imágenes por sección y lista clara de confirmaciones/material faltante.
 
 - [ ] **Paso 2 · Guardar tus fotos dentro del proyecto** *(Nivel de modelo: medio)*
@@ -43,14 +45,14 @@ Este es el plan canónico del checkout actual, que la usuaria confirmó como fue
 
   > Lee `plan-mejoras.md` y haz solo el paso 3. Cambia la imagen principal genérica por la foto de portada que indiqué en `Docs`. Que se vea completa en celular y computador, sin recortes que oculten el acabado, y que el texto encima se lea bien.
 
-  **Necesitas en Docs:** una foto elegida y aprobada por la usuaria; `PORTADA.jpeg` es solo una candidata por nombre y muestra muestras de acabado.
+  **Necesitas en Docs:** una foto elegida por la usuaria entre las carpetas de proyecto; `Docs/RADA/PORTADA.jpeg` muestra muestras de acabado y no está elegida como portada del sitio.
   **Quedó bien si:** la portada muestra un trabajo real de Rada Concept y se ve bien en el teléfono.
 
 - [ ] **Paso 4 · Galerías con las fotos correctas** *(Nivel de modelo: alto)*
 
   > Lee `plan-mejoras.md` y haz solo el paso 4. Cambia todas las imágenes genéricas de las galerías, incluida la cocina, por las fotos de cada proyecto según las carpetas de `Docs`. Cada galería debe mostrar solo fotos de su proyecto. Al abrir una foto en grande y volver, la persona debe seguir en el mismo lugar de la página. Muéstrame la lista de cambios: qué imagen había y cuál quedó.
 
-  **Necesitas en Docs:** correspondencia foto-proyecto y autorización confirmadas. Primero se revisará el catálogo visual con la usuaria.
+  **Necesitas en Docs:** la usuaria ya organizó los activos por carpetas y confirmó permiso de publicación para todas las fotos. Verificar la correspondencia de nombres de proyectos que aparecen hoy en la landing antes de reemplazar las seis tarjetas externas.
   **Quedó bien si:** no queda ninguna imagen genérica y cada galería corresponde a un proyecto real.
 
 - [ ] **Paso 5 · Quiénes somos** *(Nivel de modelo: medio)*
@@ -71,7 +73,7 @@ Este es el plan canónico del checkout actual, que la usuaria confirmó como fue
 
   > Lee `plan-mejoras.md` y haz solo el paso 7. Agrega los videos que elegí en `Docs` de forma ligera: con una imagen de portada, que carguen solo cuando la persona llegue a ellos y **sin sonido automático**. No deben tapar textos ni hacer lenta la página. Comprueba en celular que la página sigue rápida.
 
-  **Necesitas en Docs:** la usuaria eligió `TALLER.mp4`; revisar contenido, formato y peso antes de usarlo. Los otros tres videos siguen sin elegir.
+  **Necesitas en Docs:** la usuaria eligió `Docs/TALLER E INSTALACION/TALLER.mp4`; revisar contenido, formato y peso antes de usarlo. Hay 17 MP4 y 1 MOV en total, todavía no revisados visualmente.
   **Quedó bien si:** los videos se ven bien, no suenan solos y la página no se volvió lenta.
 
 - [ ] **Paso 8 · Acabado profesional** *(Nivel de modelo: alto)*
@@ -96,7 +98,7 @@ Este es el plan canónico del checkout actual, que la usuaria confirmó como fue
 
   > Lee `plan-mejoras.md` y haz solo el paso 11. Usa la skill tratamiento-datos-landing. Revisa qué datos personales recoge mi página, hazme las preguntas que falten para la política y, cuando la tengas, ponla en su propia página con un enlace en el pie y un aviso corto junto al botón de WhatsApp. No publiques la política si faltan los datos de la empresa.
 
-  **Necesitas en Docs:** existe `RUT GRUPO VILORIA RADA.pdf`, que se consultará solo localmente para extraer los datos empresariales mínimos necesarios; confirmar dirección oficial y correo de privacidad. No copiar el RUT al repositorio.
+  **Necesitas en Docs:** existe `Docs/RADA/RUT GRUPO VILORIA RADA.pdf`, que se consultará solo localmente para extraer los datos empresariales mínimos necesarios; confirmar dirección oficial y correo de privacidad. No copiar el RUT al repositorio.
   **Quedó bien si:** la política abre desde el pie de página.
 
 - [ ] **Paso 12 · SEO: que te encuentren en Google** *(Nivel de modelo: medio)*
@@ -119,7 +121,7 @@ Cuando termines todos los pasos, avísale a tu facilitador para revisar y public
 
 - Oferta central: mobiliario para acabados de hogares, oficinas y espacios comerciales; enfoque residencial y comercial en la región norte de Colombia; el equipo incluye arquitectura y diseño.
 - WhatsApp `+57 350 289 9088`, Instagram `@rada_concept` y redes actuales siguen vigentes, según la usuaria.
-- Video elegido: `TALLER.mp4`, pendiente de revisión antes de incorporarlo. Fotos/galerías: pendientes de mapeo conjunto a partir del catálogo visual; no asumir que `PORTADA.jpeg` es portada del sitio.
+- Video elegido: `Docs/TALLER E INSTALACION/TALLER.mp4`, pendiente de revisión antes de incorporarlo. Las fotos se organizaron por carpetas de proyecto y tienen permiso de publicación; `Docs/RADA/PORTADA.jpeg` muestra muestras y no es la portada elegida.
 - La política de tratamiento de datos queda dentro del plan. La cocina interactiva se conserva como opción adicional, fuera de los pasos obligatorios; se puede evaluar tras el núcleo de la landing.
 - Orden de trabajo: Paso 1 auditoría y vista local; 2 preparar activos aprobados; 3 portada; 4 galerías; 5 textos de empresa aprobados; 6 contacto/redes; 7 video `TALLER`; 8 pulido visual; 9 revisión móvil; 10 transiciones opcionales; 11 política de datos con información empresarial revisada localmente; 12 SEO; 13 revisión final.
 - Al completar cada paso, revisar cambios en `http://127.0.0.1:3000/`, iterar con la usuaria, verificar, marcarlo terminado y crear/subir un commit propio. El paso no se considera terminado hasta que la usuaria confirme su satisfacción.

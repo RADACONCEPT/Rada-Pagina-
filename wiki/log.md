@@ -2,7 +2,7 @@
 tipo: bitacora
 estado: vigente
 creado: 2026-11-10
-actualizado: 2026-11-20
+actualizado: 2026-11-24
 tags: [log]
 fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de Docs/"]
 ---
@@ -43,3 +43,14 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 ## [2026-11-20] activos | permiso de publicación de fotografías
 - La usuaria confirmó que todas las fotografías del catálogo tienen permiso de publicación.
 - Registrado el permiso en el catálogo, estado, pendientes y decisiones. Aún falta asociar las fotos con proyectos/galerías y escoger la portada.
+
+## [2026-11-24] auditoría | carpetas de activos y vista local
+- La usuaria nombró y organizó los activos en `Docs/` por categorías/proyectos. Inventario recursivo: 42 JPEG, 17 MP4 y 1 MOV; hay 2 PDF. Se encontró un par de JPEG idénticos; originales intactos.
+- Generada una nueva hoja visual de 42 fotos con nombre y carpeta. Se revisaron visualmente las miniaturas; los 18 videos no se reprodujeron.
+- Vite se inició con autorización de la usuaria en `http://127.0.0.1:3000/`. En el navegador local se revisaron Inicio, Galería, Quiénes somos y Contacto. No se editó la landing.
+- Todas las imágenes fotográficas del sitio actual son URLs remotas `lh3.googleusercontent.com`, no referencias a `Docs/`. La imagen de logo remota no cargó en el navegador; el nombre de marca en texto aparece. El mapa también usa recurso remoto. El simulador usa ilustración SVG. La procedencia de los recursos externos sigue sin confirmar.
+- Al registrar esta auditoría, quedaba pendiente el visto bueno para cerrar Paso 1; se resolvió en la entrada siguiente. El video elegido permanece `Docs/TALLER E INSTALACION/TALLER.mp4`.
+
+## [2026-11-24] aprobación | cierre del Paso 1
+- La usuaria dio visto bueno a la auditoría visual y de materiales. Se marcó el Paso 1 como completado; no se modificó la landing.
+- Actualizados plan, estado y pendientes. Siguiente paso acordado: preparar los activos aprobados localmente y mantener intactos los originales de `Docs/`.
