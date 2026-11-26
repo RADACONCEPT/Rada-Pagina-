@@ -27,8 +27,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       <section className="relative -mt-20 flex min-h-[90vh] flex-col overflow-hidden bg-[#fcf9f3] pt-20 md:flex-row">
         <div className="relative flex min-h-[42vh] items-center justify-center bg-[#e8e4dc] px-5 py-8 sm:min-h-[52vh] md:min-h-0 md:w-[46%] md:px-10 md:py-12">
           <img
-            src="/assets/rada/SHOW ROOM RADA CONCEPT/ESPACIO RADA 8.jpeg"
-            alt="Espacio Rada 8 en el showroom de Rada Concept"
+            src="/assets/rada/RADA/PORTADA.jpeg"
+            alt="Muestras de madera y superficies para acabados de interiores"
             className="max-h-[52vh] w-full object-contain sm:max-h-[62vh] md:max-h-[calc(90vh-3rem)]"
           />
         </div>
@@ -176,8 +176,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             <div className="lg:col-span-7">
               <div className="relative overflow-hidden rounded-lg shadow-2xl bg-[#f0eee8] group">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHfOe7_zXvfEIIYrbSrzXxibg0E46YHYyla8HZpbpcR6qY6Amy_DCErYN0mwJDAnEtjU-P2EVPXjUvomZTrhD_UAch98UmLbNvMVePTHRsNA64cQdFt_dIW179xVuBeSekqiE7StSEev7tNHJ-FjWNUEm24EWjYClUxhjr-RFRfyzI8tAeFsdcQ8-kJcvFFYMyOioDWZ08y1cy_oQKReYMvi8YgIy-94OzQEcuXGZI"
-                  alt="Sala de estar con panel alistonado de roble y chimenea monolítica en diseño Rada Concept"
+                  src="/assets/rada/TALLER E INSTALACION/INSTALACION.jpeg"
+                  alt="Equipo de Rada Concept instalando mobiliario a medida"
                   className="w-full h-[380px] sm:h-[480px] md:h-[540px] object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute bottom-6 left-6 right-6 p-5 bg-[#fcf9f3]/95 backdrop-blur-md rounded-lg shadow-lg max-w-sm hidden sm:block border border-[#cfc4c5]/30">

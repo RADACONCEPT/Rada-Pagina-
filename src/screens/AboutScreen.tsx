@@ -62,9 +62,9 @@ export const AboutScreen: React.FC<AboutScreenProps> = ({ onOpenBooking }) => {
             <div className="lg:col-span-6">
               <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-xl bg-white border border-[#cfc4c5]/30">
                 <img
-                  src="/assets/rada/TALLER E INSTALACION/INSTALACION.jpeg"
-                  alt="Instalación de mobiliario a medida en un espacio interior"
-                  className="w-full h-full bg-[#e8e4dc] object-contain"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDb_KBUpT4cq-LhADVtlf1tV2KRfRikZnzJK9CE6O1Lq1IZyj3Gr4joJm9x2Vh69mroT2mn1v3-5_NufdcY1NMbF5NB1zDMLBdtt988LvR1LaiSe4q--GgaboGCIDxEqkWC2Ywd4C6Y7udo4bBcTxLj1b22jEutoZD66CotIM0A4y0bxCcBP23zslr0EiDqcSQJj3jJS4rq-yih2DMn2XSmZA4y8iagwcfx0KDTtZRt"
+                  alt="Detalle de carpintería y acabados finos en taller Rada Concept"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>

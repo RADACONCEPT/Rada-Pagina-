@@ -46,14 +46,14 @@ Este es el plan canónico del checkout actual, que la usuaria confirmó como fue
 
   > Lee `plan-mejoras.md` y haz solo el paso 3. Cambia la imagen principal genérica por la foto de portada que indiqué en `Docs`. Que se vea completa en celular y computador, sin recortes que oculten el acabado, y que el texto encima se lea bien.
 
-  **Elección original:** `Docs/RADA/PORTADA.jpeg`, foto vertical de muestras de madera y superficies. Se integró su copia optimizada en `public/assets/rada/RADA/PORTADA.jpeg`, completa y sin recorte; el texto quedó en un panel independiente. Tras pedir una foto real del showroom, la usuaria eligió `public/assets/rada/SHOW ROOM RADA CONCEPT/ESPACIO RADA 8.jpeg` y aprobó la vista local el 24-11-2026. **Ajuste cerrado** junto con el Paso 4.
+  **Elección confirmada por la usuaria:** `Docs/RADA/PORTADA.jpeg`, foto de muestras de madera y superficies; permanece como portada, completa y sin recorte, con el texto en panel independiente. El intento de cambiarla a una imagen del showroom fue un error de interpretación y se está revirtiendo en la corrección local actual.
   **Quedó bien si:** la portada muestra la foto de acabados elegida y se ve bien en celular y computador.
 
-- [ ] **Paso 4 · Galerías con las fotos correctas** *(Nivel de modelo: alto)*
+- [x] **Paso 4 · Galerías con las fotos correctas** *(Nivel de modelo: alto)*
 
   > Lee `plan-mejoras.md` y haz solo el paso 4. Cambia todas las imágenes genéricas de las galerías, incluida la cocina, por las fotos de cada proyecto según las carpetas de `Docs`. Cada galería debe mostrar solo fotos de su proyecto. Al abrir una foto en grande y volver, la persona debe seguir en el mismo lugar de la página. Muéstrame la lista de cambios: qué imagen había y cuál quedó.
 
-  **Cerrado con aprobación de la usuaria (24-11-2026):** 33 fotos quedaron organizadas en tarjetas/álbumes con rótulos tomados de los archivos. Se agruparon las dos vistas del recubrimiento de pared, las dos vistas del Centro TV Barcelona, las diez fotos del showroom y los dos renders de escalera; los demás nombres corresponden a entradas separadas. La copia duplicada `CENTRO TV CON VITRINA LICORES.jpeg` quedó fuera del portafolio. Los renders de escalera se identifican como renders y no se asociaron a Intervención civil, según indicó la usuaria. Se muestran fotos para Cocina, Intervención civil y Centro TV; la categoría comercial queda pendiente de fotos, que la usuaria agregará más adelante. El visor cambia entre todas las fotos del álbum, permite cerrar con Esc y conserva la posición de la galería. La portada horizontal usa `ESPACIO RADA 8.jpeg`, elegida por la usuaria; «Filosofía y taller» usa `INSTALACION.jpeg`. Build, lint y verificación de 33 rutas de imagen correctos. **Paso completado; queda pendiente hacer commit y sincronizar a origin/main.**
+  **Corrección aprobada por la usuaria (26-11-2026):** la portada conserva `PORTADA.jpeg`. La foto del recuadro de Inicio identificado por «Materia Prima & Textura» es `TALLER E INSTALACION/INSTALACION.jpeg`. La página separada «Filosofía y taller» conserva su imagen anterior. El resto de las 33 fotos/álbumes, sus rótulos, categorías y controles está listo. Build, lint y rutas correctos. Paso completado; corrección pendiente de commit.
   **Quedó bien si:** no queda ninguna imagen genérica y cada galería corresponde a un proyecto real.
 
 - [ ] **Paso 5 · Quiénes somos** *(Nivel de modelo: medio)*
@@ -122,7 +122,7 @@ Cuando termines todos los pasos, avísale a tu facilitador para revisar y public
 
 - Oferta central: mobiliario para acabados de hogares, oficinas y espacios comerciales; enfoque residencial y comercial en la región norte de Colombia; el equipo incluye arquitectura y diseño.
 - WhatsApp `+57 350 289 9088`, Instagram `@rada_concept` y redes actuales siguen vigentes, según la usuaria.
-- Video elegido: `Docs/TALLER E INSTALACION/TALLER.mp4`, pendiente de revisión antes de incorporarlo. Las fotos se organizaron por carpetas de proyecto y tienen permiso de publicación; `Docs/RADA/PORTADA.jpeg` muestra muestras y no es la portada elegida.
+- Video elegido: `Docs/TALLER E INSTALACION/TALLER.mp4`, pendiente de revisión antes de incorporarlo. Las fotos se organizaron por carpetas de proyecto y tienen permiso de publicación. `Docs/RADA/PORTADA.jpeg` muestra muestras de material y permanece como portada por decisión confirmada de la usuaria.
 - La política de tratamiento de datos queda dentro del plan. La cocina interactiva se conserva como opción adicional, fuera de los pasos obligatorios; se puede evaluar tras el núcleo de la landing.
 - Orden de trabajo: Paso 1 auditoría y vista local; 2 preparar activos aprobados; 3 portada; 4 galerías; 5 textos de empresa aprobados; 6 contacto/redes; 7 video `TALLER`; 8 pulido visual; 9 revisión móvil; 10 transiciones opcionales; 11 política de datos con información empresarial revisada localmente; 12 SEO; 13 revisión final.
 - Al completar cada paso, revisar cambios en `http://127.0.0.1:3000/`, iterar con la usuaria, verificar, marcarlo terminado y crear/subir un commit propio. El paso no se considera terminado hasta que la usuaria confirme su satisfacción.

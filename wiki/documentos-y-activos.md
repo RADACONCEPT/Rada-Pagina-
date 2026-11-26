@@ -109,14 +109,15 @@ Total: **18 archivos de video** (17 MP4 y 1 MOV). Los nombres ayudan a ubicar lo
 ## Duplicados y calidad visual
 
 - Se encontró un par de JPEG idénticos por SHA-256: `Docs/CENTRO TV/CENTRO DE TV.jpeg` y `Docs/CENTRO TV/CENTRO TV CON VITRINA LICORES.jpeg`. Se conservan ambos originales.
-- Las miniaturas de las fotos fueron revisadas; `Docs/RADA/PORTADA.jpeg` muestra muestras de madera y superficies. Fue la selección inicial; la usuaria luego eligió `Docs/SHOW ROOM RADA CONCEPT/ESPACIO RADA 8.jpeg` para la portada por ser una imagen del showroom.
+- Las miniaturas de las fotos fueron revisadas; `Docs/RADA/PORTADA.jpeg` muestra muestras de madera y superficies. La usuaria confirma que esta es la imagen que desea mantener en la portada.
 
 ## Imágenes que usa actualmente la landing
 
 | Sección | Recurso actual | Observación |
 |---|---|---|
-| Inicio, hero | `public/assets/rada/SHOW ROOM RADA CONCEPT/ESPACIO RADA 8.jpeg` | Foto de showroom elegida por la usuaria para reemplazar la imagen de muestras. Pendiente de revisión visual. |
-| Inicio, bloque Quiénes somos; About; galería | Imagen externa repetida con alt de sala/carpintería; se comparte entre "Salón Monolítico" y "Carpintería de Autor" | Recurso duplicado y no asociable a fotos de `Docs/` solo por el alt. |
+| Inicio, hero | `public/assets/rada/RADA/PORTADA.jpeg` | Foto de muestras de madera/superficies elegida por la usuaria; se conserva completa en la composición horizontal. |
+| Inicio, recuadro «Materia Prima & Textura» | `public/assets/rada/TALLER E INSTALACION/INSTALACION.jpeg` | Sustituye localmente la imagen externa por la foto autorizada de instalación. |
+| Página About / Filosofía y taller | Imagen externa con alt de detalle de carpintería y acabados | Se conserva; la usuaria aclaró que no era la imagen indicada para reemplazo. |
 | Portafolio de Inicio y Galería | Seis tarjetas con alt: "Cocina Isla Nácar", "Salón Monolítico", "Boutique Aurelia", "Oficina Presidencial", "Comedor Serena" y "Carpintería de Autor" | Todos usan URLs `lh3.googleusercontent.com`; no son activos locales ni se ha confirmado si son fotos propias, genéricas o generadas. |
 | Header y footer | Logo externo en `lh3.googleusercontent.com` | La carga falló en la vista revisada (`naturalWidth=0`); el nombre de marca en texto sí aparece. |
 | Ubicación (Inicio y Contacto) | Imagen de mapa externa en `lh3.googleusercontent.com` | No es un activo local de `Docs/`. |
@@ -134,7 +135,7 @@ Total: **18 archivos de video** (17 MP4 y 1 MOV). Los nombres ayudan a ubicar lo
 ## Pendiente de validación
 
 - Revisar visualmente el video seleccionado `Docs/TALLER E INSTALACION/TALLER.mp4`; no reportar reproducción aún.
-- Para el Paso 4, la usuaria confirmó usar nombres de archivo como rótulos, mezclar renders identificándolos y destacar Cocina, Proyectos comerciales, Intervención civil y Centro de TV. Decidió agregar fotos comerciales más adelante; `Docs/PROYECTOS COMERCIALES/` contiene solo videos. Las dos fotos `RENDERS/RECUBRIMIENTO ESCALERA DOBLE ALTURA*.jpeg` se agrupan como álbum «Render» independiente y se excluyen de Intervención civil por ahora. La foto `Docs/TALLER E INSTALACION/INSTALACION.jpeg` se pidió para la página «Filosofía y taller».
+- Para el Paso 4, la usuaria confirmó usar nombres de archivo como rótulos, mezclar renders identificándolos y destacar Cocina, Proyectos comerciales, Intervención civil y Centro de TV. Decidió agregar fotos comerciales más adelante; `Docs/PROYECTOS COMERCIALES/` contiene solo videos. Las dos fotos `RENDERS/RECUBRIMIENTO ESCALERA DOBLE ALTURA*.jpeg` se agrupan como álbum «Render» independiente y se excluyen de Intervención civil por ahora. Aclaración de la usuaria: `INSTALACION.jpeg` debe reemplazar la foto externa del bloque de Inicio «Materia Prima & Textura», y `PORTADA.jpeg` debe permanecer en el hero. Revisión local pendiente.
 - Revisar páginas 2–14 del manual.
 - Confirmar textos comerciales, cifras, testimonios, direcciones y horarios del sitio antes de mantenerlos en publicación.
 - No incluir `Docs/` ni el RUT en commits.

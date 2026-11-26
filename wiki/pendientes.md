@@ -10,9 +10,9 @@ fuentes: ["estado-del-proyecto", "documentos-y-activos", "src/data/mockData.ts"]
 
 - **Paso 1 cerrado el 2026-11-24:** la usuaria aprobó la auditoría local de Inicio, Galería, Quiénes somos y Contacto.
 - **Paso 2 cerrado el 2026-11-24:** la usuaria aprobó 42 copias JPEG optimizadas y la copia original del video seleccionado en `public/assets/rada/`.
-- **Paso 3 cerrado el 2026-11-24:** la usuaria aprobó en vista local la composición horizontal con `ESPACIO RADA 8.jpeg` como foto de portada.
+- **Paso 3:** conservar en portada la foto de muestras `PORTADA.jpeg`, según aclaración de la usuaria; composición horizontal aprobada.
 - Todas las 42 fotos tienen permiso de publicación confirmado.
-- **Paso 4 cerrado el 2026-11-24:** la usuaria aprobó las 33 fotos organizadas en tarjetas/álbumes, los controles, la foto de `ESPACIO RADA 8.jpeg` en la portada y `INSTALACION.jpeg` en «Filosofía y taller». Se deben agregar fotos comerciales cuando la usuaria las tenga.
+- **Paso 4 cerrado el 2026-11-26:** se conserva `PORTADA.jpeg` en portada, se usa `INSTALACION.jpeg` únicamente en el bloque de Inicio «Materia Prima & Textura» y se mantiene la imagen anterior en la página separada. Se deben agregar fotos comerciales cuando la usuaria las tenga.
 - Revisar páginas 2–14 del manual y el video elegido `Docs/TALLER E INSTALACION/TALLER.mp4`; los demás clips aún no se han revisado visualmente.
 - Permanecen otras imágenes remotas fuera del portafolio que se acaba de actualizar; revisar procedencia y asociaciones en los pasos pendientes del plan.
 - Confirmar servicios complementarios, ciudades concretas de cobertura norte, correo y dirección publicados, horario y testimonios/afirmaciones del sitio.

@@ -79,4 +79,5 @@ fuentes: ["instrucciones pegadas", "archivos del proyecto", "inventario local de
 ## [2026-11-24] ajuste | foto real para la portada
 - La usuaria indicó que la imagen de muestras usada inicialmente no corresponde a una foto real de Rada Concept y pidió cambiar también la imagen principal.
 - Tras revisar opciones, la usuaria eligió `public/assets/rada/SHOW ROOM RADA CONCEPT/ESPACIO RADA 8.jpeg` para el hero; la composición horizontal se conserva.
-- La usuaria aprobó la vista local. Build, lint y `git diff --check` correctos; Paso 4 y el ajuste de portada cerrados. Se preparan los cambios para commit en `origin/main`; esto no publica el sitio.
+- **Corrección por aclaración:** la usuaria explicó que sí quería conservar `PORTADA.jpeg` en el hero. La imagen referida era la del bloque de Inicio con la nota «Materia Prima & Textura». El cambio de hero fue un error de interpretación y quedó en el commit `77ffbd0`; se restauró localmente `PORTADA.jpeg` y se cambió únicamente la imagen del bloque indicado a `INSTALACION.jpeg`.
+- Al pedir seguir con el Paso 5, la usuaria dio por aprobada la corrección local. Build, lint y `git diff --check` pasaron. Se cierra el Paso 4 y se prepara su commit correctivo; el sitio aún no está publicado.
